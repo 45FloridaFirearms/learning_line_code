@@ -1,0 +1,5202 @@
+<devicedata>
+  <certified level="1" date="2/24/2011">Certified</certified>
+  <!-- Tentative ID -->
+  <c4id>6362</c4id>
+  <manufacturer>Yamaha</manufacturer>
+  <model>Jay [Network][DriverWorks]</model>
+  <search_type>c4:av_gen</search_type>
+  <creator>Jay_Floyd</creator>
+  <name>Jay [Dest. U]</name>
+  <small>devices_sm/receiver.gif</small>
+  <large>devices_lg/receiver.gif</large>
+  <top />
+  <bottom />
+  <front />
+  <back />
+  <left />
+  <right />
+  <control>lua_gen</control>
+  <driver>DriverWorks</driver>
+  <copyright />
+  <created>4/29/2010 8:01:43 PM</created>
+  <modified>2/08/2011 3:20:11 PM</modified>
+  <proxies qty="9">
+    <proxy proxybindingid="5000" name="Receiver">receiver</proxy>
+    <proxy proxybindingid="5092" name="HD Tuner">tuner</proxy>
+    <proxy proxybindingid="5095" name="SIRIUS Tuner">tunerXM</proxy>
+    <proxy proxybindingid="5081" name="USB">dvd</proxy>
+    <proxy proxybindingid="5082" name="NET Radio">dvd</proxy>
+    <proxy proxybindingid="5083" name="Rhapsody">dvd</proxy>
+    <proxy proxybindingid="5084" name="PC">dvd</proxy>
+    <proxy proxybindingid="5085" name="SIRIUS IR">dvd</proxy>
+    <proxy proxybindingid="5071" name="iPod">dvd</proxy>
+  </proxies>
+  <capabilities>
+    <surround_modes type="xml">
+      <surround_mode>
+        <id>1000</id>
+        <name>Hall in Munich</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1004</id>
+        <name>Hall in Vienna</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1005</id>
+        <name>Hall in Amsterdam</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1008</id>
+        <name>Chamber</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1010</id>
+        <name>Church in Freiburg</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1011</id>
+        <name>Church in Royaumont</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1101</id>
+        <name>Village Vanguard</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1102</id>
+        <name>The Bottom Line</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1103</id>
+        <name>Cellar Club</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1104</id>
+        <name>The Roxy Theatre</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1105</id>
+        <name>Warehouse Loft</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1200</id>
+        <name>7ch Stereo</name>
+      </surround_mode>
+      <surround_mode>
+        <id>1201</id>
+        <name>2ch Stereo</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2000</id>
+        <name>Sports</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2001</id>
+        <name>Music Video</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2002</id>
+        <name>Recital/Opera</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2004</id>
+        <name>Action Game</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2005</id>
+        <name>Roleplaying Game</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2100</id>
+        <name>Standard</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2101</id>
+        <name>Spectacle</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2102</id>
+        <name>Sci-Fi</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2103</id>
+        <name>Adventure</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2104</id>
+        <name>Drama</name>
+      </surround_mode>
+      <surround_mode>
+        <id>2105</id>
+        <name>Mono Movie</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5000</id>
+        <name>Surround Decoder</name>
+      </surround_mode>
+      <surround_mode>
+        <id>6000</id>
+        <name>Straight</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5001</id>
+        <name>Dolby PL</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5010</id>
+        <name>Dolby PLII / PLIIx Music</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5011</id>
+        <name>Dolby PLII / PLIIx Movie</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5012</id>
+        <name>Dolby PLII / PLIIx Game</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5100</id>
+        <name>DTS NEO:6 Music</name>
+      </surround_mode>
+      <surround_mode>
+        <id>5101</id>
+        <name>DTS NEO:6 Cinema</name>
+      </surround_mode>
+    </surround_modes>
+    <has_discrete_volume_control>True</has_discrete_volume_control>
+    <has_up_down_volume_control>True</has_up_down_volume_control>
+    <has_discrete_input_select>True</has_discrete_input_select>
+    <has_toad_input_select>True</has_toad_input_select>
+    <has_toggle_mute_control>True</has_toggle_mute_control>
+    <has_discrete_mute_control>True</has_discrete_mute_control>
+    <has_discrete_surround_mode_select>True</has_discrete_surround_mode_select>
+    <has_toad_surround_mode_select>False</has_toad_surround_mode_select>
+    <has_tune_up_down>True</has_tune_up_down>
+    <has_search_up_down>True</has_search_up_down>
+    <has_discrete_preset>True</has_discrete_preset>
+    <has_preset_up_down>True</has_preset_up_down>
+    <preset_count>40</preset_count>
+    <can_upclass>True</can_upclass>
+    <can_downclass>True</can_downclass>
+    <video_provider_count>4</video_provider_count>
+    <video_consumer_count>8</video_consumer_count>
+    <audio_provider_count>4</audio_provider_count>
+    <audio_consumer_count>13</audio_consumer_count>
+    <has_discrete_channel_select>True</has_discrete_channel_select>
+    <has_channel_up_down>True</has_channel_up_down>
+    <preface_band_with_tuner>True</preface_band_with_tuner>
+    <has_feedback>True</has_feedback>
+    <always_select_video_with_audio>True</always_select_video_with_audio>
+  </capabilities>
+  <events />
+  <connections>
+    <connection>
+      <id>5000</id>
+      <facing>6</facing>
+      <connectionname>Receiver</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>RECEIVER</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5092</id>
+      <facing>6</facing>
+      <connectionname>HDTUNER</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>TUNER</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5095</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSTUNER</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>TUNERXM</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5081</id>
+      <facing>6</facing>
+      <connectionname>USB</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>DVD</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5082</id>
+      <facing>6</facing>
+      <connectionname>NET RADIO</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>DVD</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5083</id>
+      <facing>6</facing>
+      <connectionname>RHAPSODY</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>DVD</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5084</id>
+      <facing>6</facing>
+      <connectionname>PC</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>DVD</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5085</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSIR</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>DVD</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5071</id>
+      <facing>6</facing>
+      <connectionname>iPOD</connectionname>
+      <type>2</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>DVD</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>6001</id>
+      <facing>6</facing>
+      <connectionname>TCP</connectionname>
+      <type>4</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>TCP</classname>
+          <ports>
+            <port>
+              <number>50000</number>
+              <auto_connect>True</auto_connect>
+              <monitor_connection>True</monitor_connection>
+              <keep_connection>True</keep_connection>
+            </port>
+          </ports>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>4101</id>
+      <facing>6</facing>
+      <connectionname>Output</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+        </class>
+        <class>
+          <classname>MULTI_STEREO</classname>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>2101</id>
+      <facing>6</facing>
+      <connectionname>Output</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>7101</id>
+      <facing>6</facing>
+      <connectionname>Room Selection - Output</connectionname>
+      <type>7</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>4202</id>
+      <facing>6</facing>
+      <connectionname>Zone2 Out</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>2202</id>
+      <facing>6</facing>
+      <connectionname>Zone2 Out</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>7202</id>
+      <facing>6</facing>
+      <connectionname>Room Selection - Zone2 Out</connectionname>
+      <type>7</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>4303</id>
+      <facing>6</facing>
+      <connectionname>Zone3 Out</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>2303</id>
+      <facing>6</facing>
+      <connectionname>Zone3 Out</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>7303</id>
+      <facing>6</facing>
+      <connectionname>Room Selection - Zone3 Out</connectionname>
+      <type>7</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>4404</id>
+      <facing>6</facing>
+      <connectionname>Zone4 Out</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>2404</id>
+      <facing>6</facing>
+      <connectionname>Zone4 Out</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>7404</id>
+      <facing>6</facing>
+      <connectionname>Room Selection - Zone4 Out</connectionname>
+      <type>7</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5092">
+      <id>4092</id>
+      <facing>6</facing>
+      <connectionname>HDTUNER Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>93</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5095">
+      <id>4095</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSTUNER Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>99</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5095">
+      <id>2095</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSTUNER Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>100</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5081">
+      <id>4081</id>
+      <facing>6</facing>
+      <connectionname>USB Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>81</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5081">
+      <id>2081</id>
+      <facing>6</facing>
+      <connectionname>USB Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>82</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5082">
+      <id>4082</id>
+      <facing>6</facing>
+      <connectionname>NET RADIO Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>83</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5082">
+      <id>2082</id>
+      <facing>6</facing>
+      <connectionname>NET RADIO Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>84</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5083">
+      <id>4083</id>
+      <facing>6</facing>
+      <connectionname>RHAPSODY Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>85</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5083">
+      <id>2083</id>
+      <facing>6</facing>
+      <connectionname>RHAPSODY Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>86</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5084">
+      <id>4084</id>
+      <facing>6</facing>
+      <connectionname>PC Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>87</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5084">
+      <id>2084</id>
+      <facing>6</facing>
+      <connectionname>PC Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>88</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5085">
+      <id>4085</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSIR Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>89</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5085">
+      <id>2085</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSIR Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>90</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5071">
+      <id>4071</id>
+      <facing>6</facing>
+      <connectionname>iPOD Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>71</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5071">
+      <id>2071</id>
+      <facing>6</facing>
+      <connectionname>iPOD Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>72</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5072">
+      <id>4072</id>
+      <facing>6</facing>
+      <connectionname>BLUETOOTH Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>73</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5072">
+      <id>2072</id>
+      <facing>6</facing>
+      <connectionname>BLUETOOTH Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>74</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5073">
+      <id>4073</id>
+      <facing>6</facing>
+      <connectionname>UAW Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>6</type>
+      <consumer>False</consumer>
+      <audiosource>True</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>75</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5073">
+      <id>2073</id>
+      <facing>6</facing>
+      <connectionname>UAW Porxy Output to RECEIVER [REQUIRED]</connectionname>
+      <type>5</type>
+      <consumer>False</consumer>
+      <audiosource>False</audiosource>
+      <videosource>True</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>76</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3092</id>
+      <facing>6</facing>
+      <connectionname>HDTUNER</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>93</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3095</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSTUNER</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>99</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1095</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSTUNER</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>100</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3081</id>
+      <facing>6</facing>
+      <connectionname>USB</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>81</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1081</id>
+      <facing>6</facing>
+      <connectionname>USB</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>82</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3082</id>
+      <facing>6</facing>
+      <connectionname>NET RADIO</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>83</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1082</id>
+      <facing>6</facing>
+      <connectionname>NET RADIO</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>84</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3083</id>
+      <facing>6</facing>
+      <connectionname>RHAPSODY</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>85</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1083</id>
+      <facing>6</facing>
+      <connectionname>RHAPSODY</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>86</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3084</id>
+      <facing>6</facing>
+      <connectionname>PC</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>87</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1084</id>
+      <facing>6</facing>
+      <connectionname>PC</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>88</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3085</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSIR</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>89</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1085</id>
+      <facing>6</facing>
+      <connectionname>SIRIUSIR</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>90</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3071</id>
+      <facing>6</facing>
+      <connectionname>iPOD</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>71</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1071</id>
+      <facing>6</facing>
+      <connectionname>iPOD</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>72</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3072</id>
+      <facing>6</facing>
+      <connectionname>BLUETOOTH</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>73</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1072</id>
+      <facing>6</facing>
+      <connectionname>BLUETOOTH</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>74</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3073</id>
+      <facing>6</facing>
+      <connectionname>UAW</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>75</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>SPEAKER</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>STEREO</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1073</id>
+      <facing>6</facing>
+      <connectionname>UAW</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <idautobind>76</idautobind>
+      <hidden>True</hidden>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+          <autobind>True</autobind>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+          <autobind>True</autobind>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3011</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 1</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1011</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 1</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3012</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 2</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1012</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 2</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3013</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 3</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1013</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 3</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3014</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 4</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1014</id>
+      <facing>6</facing>
+      <connectionname>AUDIO 4</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3020</id>
+      <facing>6</facing>
+      <connectionname>VIDEO AUX</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1020</id>
+      <facing>6</facing>
+      <connectionname>VIDEO AUX</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3021</id>
+      <facing>6</facing>
+      <connectionname>AV 1</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1021</id>
+      <facing>6</facing>
+      <connectionname>AV 1</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3022</id>
+      <facing>6</facing>
+      <connectionname>AV 2</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1022</id>
+      <facing>6</facing>
+      <connectionname>AV 2</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3023</id>
+      <facing>6</facing>
+      <connectionname>AV 3</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1023</id>
+      <facing>6</facing>
+      <connectionname>AV 3</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3024</id>
+      <facing>6</facing>
+      <connectionname>AV 4</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1024</id>
+      <facing>6</facing>
+      <connectionname>AV 4</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+        <class>
+          <classname>SVIDEO</classname>
+        </class>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3025</id>
+      <facing>6</facing>
+      <connectionname>AV 5</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1025</id>
+      <facing>6</facing>
+      <connectionname>AV 5</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3026</id>
+      <facing>6</facing>
+      <connectionname>AV 6</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1026</id>
+      <facing>6</facing>
+      <connectionname>AV 6</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3027</id>
+      <facing>6</facing>
+      <connectionname>AV 7</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>1027</id>
+      <facing>6</facing>
+      <connectionname>AV 7</connectionname>
+      <type>5</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3041</id>
+      <facing>6</facing>
+      <connectionname>Multi Channel Input</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>MULTI_STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5000">
+      <id>3042</id>
+      <facing>6</facing>
+      <connectionname>PHONO</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5092">
+      <id>3003</id>
+      <facing>6</facing>
+      <connectionname>AM Antenna</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>RF_AM</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5092">
+      <id>3004</id>
+      <facing>6</facing>
+      <connectionname>FM Antenna</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>RF_FM</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5095">
+      <id>3007</id>
+      <facing>6</facing>
+      <connectionname>SIRIUS Antenna</connectionname>
+      <type>6</type>
+      <consumer>True</consumer>
+      <audiosource>False</audiosource>
+      <videosource>False</videosource>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>RF_SIRIUS</classname>
+        </class>
+      </classes>
+    </connection>
+  </connections>
+  <config>
+    <documentation>Control4 certified on 2/24/2011 for software released versions: 1.8.2, 2.0.6.
+
+RECEIVER CONFIGURATION:
+Follow the instructions in the Receiver User Manual for Setup.
+Hit "On Screen" key on the Receiver's remote then go to "Setup &gt; Network" and perform the following:
+- set DHCP to OFF
+- set a Static IP Address
+- set Network Standby to ON. This enables data transmission when the unit is in the standby mode.
+
+In Composer perform the following:
+- enter the IP Address in the Network Connections Tab.
+- enter the IP Address in the IP Address field in the driver's Properties tab.
+
+IP Port:
+The range of IP Port for TCP connection is 50000 to 65535. The default is 50000. Usually it is not necessary to change this setting. If you do need to do so, remember that although port changing command is sent to the receiver when the IP Port value is changed and set on the Composer, the port setting on the receiver can not dynamically be effective. Its setting is reserved to set and will be effective once the receiver is shut off and turned on gain (note: necessary to pull off the AC cable when "Network Standby" is set to "On" so as to shut down the receiver properly and to make the IP Port setting being activated). Please make sure to turn (shut) off the receiver evety time IP port value is changed.
+
+Keep Alive Timer:
+A Keep Alive Timer is implemented to keep the receiver's network connection alive. On the driver's Properties tab there is a "Keep Alive Timer Delay-Seconds" property which is used to set the interval of this timer. The range is 1 second to 50 seconds. The default value is 25 seconds. The receiver will expire (disconnect) the TCP connection in 60 seconds if no commands are detected within that time period.
+
+ZONE CONFIGURATION:
+[Zone2 and Zone3 (if applicable)]
+These zones can be a speaker output. Its setting can be done in the setup menu on the receiver. Hit "On Screen" key on the Receiver's remote then go to "Setup &gt; Speaker &gt; Manual Setup &gt; Power Amp Assign".
+Select zone-available items by looking at the menu. (Very easy to understand to know which speaker terminals are to be assigned to which zone with receiver's GUI) *Note: Not all inputs that are available in Main Zone are selectable in Zone2 and Zone3.
+[Zone4 (if applicable)]
+Zone4 only comes with digital audio output capability. Also setup is necessary to use the digital audio out as Zone4 output. For set-up: Hit "On Screen" key on the Receiver's remote then go to "Setup &gt; Multi Zone &gt; Digital Out Assign" and select "Zone4" (Main is the default setting). *Note: Since Zone4 has only digital audio output, no internal sources on the receiver (like TUNER, SIRIUS, iPod, NET/USB) are not selectable as a Zone4 input. Very limited inputs that have digital audio input with them are selectable as a Zone4 input.
+
+ZONE VIDEO OUTPUT:
+Zone vide output is available via Component and Composite video outputs by swapping those outputs with Main Zone's. For set-up: Hit "On screen" key on the Receiver's remote then go to "Setup &gt; Multi Zone &gt; Monitor Out Assign" and select Zone2, Zone3 or Zone4 (if applicable). Only one zone can utilze the analog video monitor outputs.
+
+MENU NAVIGATION:
+Yamaha Remote Control Button &lt;&lt;&gt;&gt; Control4 Remote Control Button
+Return &lt;&lt;&gt;&gt; CNCL
+Return &lt;&lt;&gt;&gt; PREV
+Display &lt;&lt;&gt;&gt; INFO
+On Screen &lt;&lt;&gt;&gt; MENU
+Option &lt;&lt;&gt;&gt; GUIDE
+Number Enter &lt;&lt;&gt;&gt; POUND
+ Note: No numerical keys (including "Number Enter" key) are available for Zone4 since there's no internal sources selectable for Zone4 that need to enter numbers.
+
+PLAY CONTROL NOTE:
+Control &lt;&lt;&gt;&gt; Control4 Remote Control button
+Freq/Ch Up &lt;&lt;&gt;&gt; CH+
+Freq/Ch Down &lt;&lt;&gt;&gt; CH-
+Preset Up &lt;&lt;&gt;&gt; PG Up
+Preset Down &lt;&lt;&gt;&gt; PG Down
+Preset Memory &lt;&lt;&gt;&gt; REC *Avail only in Main Zone. Not effective controling from other zones.
+ Especially for HD Radio
+  HD Program Up &lt;&lt;&gt;&gt; SKIP FWD
+  HD Program Down &lt;&lt;&gt;&gt; SKIP REV
+  Auto Station Search Up &lt;&lt;&gt;&gt; SCAN FWD
+  Auto Station Search Down &lt;&lt;&gt;&gt; SCAN RWD
+
+DUAL HDMI OUTPUTS:
+The following commands are included in this driver for use by models that have dual HDMI Outputs. These commands can be accessed via Programming or Custom Buttons:
+HDMI OUT OFF
+HDMI OUT 1
+HDMI OUT 2
+HDMI OUT 1+2
+
+OTHER COMMANDS:
+The following commands are included in this driver for users who would like to access those commands via Programming or Custom Buttons.
+SCENE 1
+SCENE 2
+SCENE 3
+SCENE 4
+ENHANCER ON
+ENHANCER OFF</documentation>
+    <commands>
+      <command>
+        <name>HDMI OUT OFF</name>
+        <description>HDMI OUT OFF</description>
+      </command>
+      <command>
+        <name>HDMI OUT 1</name>
+        <description>HDMI OUT 1</description>
+      </command>
+      <command>
+        <name>HDMI OUT 2</name>
+        <description>HDMI OUT 2</description>
+      </command>
+      <command>
+        <name>HDMI OUT 1+2</name>
+        <description>HDMI OUT 1+2</description>
+      </command>
+      <command>
+        <name>SCENE_BD/DVD</name>
+        <description>SCENE_BD/DVD</description>
+      </command>
+      <command>
+        <name>SCENE_TV</name>
+        <description>SCENE_TV</description>
+      </command>
+      <command>
+        <name>SCENE_CD</name>
+        <description>SCENE_CD</description>
+      </command>
+      <command>
+        <name>SCENE_RADIO</name>
+        <description>SCENE_RADIO</description>
+      </command>
+      <command>
+        <name>SCENE_JAY_FLOYD</name>
+        <description>SCENE_JAY_FLOYD</description>
+      </command>
+	  <command>
+        <name>ENHANCER_ON</name>
+        <description>ENHANCER_ON</description>
+      </command>
+	  <command>
+        <name>ENHANCER_OFF</name>
+        <description>ENHANCER_OFF</description>
+      </command>
+    </commands>
+    <properties>
+      <property>
+        <name>IP Address</name>
+        <type>STRING</type>
+        <default>192.168.1.000</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>IP Port</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>50000</minimum>
+        <maximum>65535</maximum>
+        <default>50000</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Connected To Network</name>
+        <type>STRING</type>
+        <default>false</default>
+        <readonly>true</readonly>
+      </property>
+      <property>
+        <name>Debug Mode</name>
+        <type>LIST</type>
+        <items>
+          <item>Off</item>
+          <item>Print</item>
+          <item>Log</item>
+          <item>Print and Log</item>
+        </items>
+        <default>Off</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Power On Delay-Seconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>0</minimum>
+        <maximum>25</maximum>
+        <default>1</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Command Delay-Milliseconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>50</minimum>
+        <maximum>2500</maximum>
+        <default>250</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Volume Ramp Delay-Milliseconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>50</minimum>
+        <maximum>500</maximum>
+        <default>125</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Retry Set Input Delay-Milliseconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>50</minimum>
+        <maximum>2500</maximum>
+        <default>125</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>RoomID Detection Limit-Milliseconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>1</minimum>
+        <maximum>500</maximum>
+        <default>250</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Keep Alive Timer Delay-Seconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>1</minimum>
+        <maximum>50</maximum>
+        <default>25</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>IP Port Set Delay-Seconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>1</minimum>
+        <maximum>60</maximum>
+        <default>15</default>
+        <readonly>false</readonly>
+      </property>
+      <property>
+        <name>Update Volume Feedback Delay-Milliseconds</name>
+        <type>RANGED_INTEGER</type>
+        <minimum>100</minimum>
+        <maximum>3000</maximum>
+        <default>1000</default>
+        <readonly>false</readonly>
+      </property>
+    </properties>
+    <actions>
+      <action>
+        <name>Destroy All Timers</name>
+        <command>Destroy Timers</command>
+      </action>
+    </actions>
+    <power_management_method>AlwaysOn</power_management_method>
+    <irsettings />
+    <power_command_delay>0</power_command_delay>
+    <power_delay>5</power_delay>
+    <power_command_needed>True</power_command_needed>
+    <rfs>
+      <rf>rf_fm</rf>
+      <rf>rf_am</rf>
+      <rf>rf_sirius</rf>
+    </rfs>
+    <serialsection>
+      <serialcodes />
+    </serialsection>
+    <script><![CDATA[
+tOutputConnMap = {
+[101] = 'Output',
+[202] = 'Zone2 Out',
+[303] = 'Zone3 Out',
+[404] = 'Zone4 Out',
+} -- For RX-A3000 [Dest. U]
+
+tInputConnMapByID = {
+[92] = { Name = 'HDTUNER', BindingID = 5000, },
+[95] = { Name = 'SIRIUSTUNER', BindingID = 5000, },
+[81] = { Name = 'USB', BindingID = 5000, },
+[82] = { Name = 'NET RADIO', BindingID = 5000, },
+[83] = { Name = 'RHAPSODY', BindingID = 5000, },
+[84] = { Name = 'PC', BindingID = 5000, },
+[85] = { Name = 'SIRIUSIR', BindingID = 5000, },
+[71] = { Name = 'iPOD', BindingID = 5000, },
+[72] = { Name = 'BLUETOOTH', BindingID = 5000, },
+[73] = { Name = 'UAW', BindingID = 5000, },
+[11] = { Name = 'AUDIO 1', BindingID = 5000, },
+[12] = { Name = 'AUDIO 2', BindingID = 5000, },
+[13] = { Name = 'AUDIO 3', BindingID = 5000, },
+[14] = { Name = 'AUDIO 4', BindingID = 5000, },
+[20] = { Name = 'VIDEO AUX', BindingID = 5000, },
+[21] = { Name = 'AV 1', BindingID = 5000, },
+[22] = { Name = 'AV 2', BindingID = 5000, },
+[23] = { Name = 'AV 3', BindingID = 5000, },
+[24] = { Name = 'AV 4', BindingID = 5000, },
+[25] = { Name = 'AV 5', BindingID = 5000, },
+[26] = { Name = 'AV 6', BindingID = 5000, },
+[27] = { Name = 'AV 7', BindingID = 5000, },
+[41] = { Name = 'Multi Channel Input', BindingID = 5000, },
+[42] = { Name = 'PHONO', BindingID = 5000, },
+[3] = { Name = 'AM Antenna', BindingID = 5092, },
+[4] = { Name = 'FM Antenna', BindingID = 5092, },
+[7] = { Name = 'SIRIUS Antenna', BindingID = 5095, },
+} -- For RX-A3000 [Dest. U]
+
+tInputConnMapByName = {
+['HDTUNER'] = { ID = 92, BindingID = 5000, },
+['SIRIUSTUNER'] = { ID = 95, BindingID = 5000, },
+['USB'] = { ID = 81, BindingID = 5000, },
+['NET RADIO'] = { ID = 82, BindingID = 5000, },
+['RHAPSODY'] = { ID = 83, BindingID = 5000, },
+['PC'] = { ID = 84, BindingID = 5000, },
+['SIRIUSIR'] = { ID = 85, BindingID = 5000, },
+['iPOD'] = { ID = 71, BindingID = 5000, },
+['BLUETOOTH'] = { ID = 72, BindingID = 5000, },
+['UAW'] = { ID = 73, BindingID = 5000, },
+['AUDIO 1'] = { ID = 11, BindingID = 5000, },
+['AUDIO 2'] = { ID = 12, BindingID = 5000, },
+['AUDIO 3'] = { ID = 13, BindingID = 5000, },
+['AUDIO 4'] = { ID = 14, BindingID = 5000, },
+['VIDEO AUX'] = { ID = 20, BindingID = 5000, },
+['AV 1'] = { ID = 21, BindingID = 5000, },
+['AV 2'] = { ID = 22, BindingID = 5000, },
+['AV 3'] = { ID = 23, BindingID = 5000, },
+['AV 4'] = { ID = 24, BindingID = 5000, },
+['AV 5'] = { ID = 25, BindingID = 5000, },
+['AV 6'] = { ID = 26, BindingID = 5000, },
+['AV 7'] = { ID = 27, BindingID = 5000, },
+['Multi Channel Input'] = { ID = 41, BindingID = 5000, },
+['PHONO'] = { ID = 42, BindingID = 5000, },
+['AM Antenna'] = { ID = 3, BindingID = 5092, },
+['FM Antenna'] = { ID = 4, BindingID = 5092, },
+['SIRIUS Antenna'] = { ID = 7, BindingID = 5095, },
+} -- For RX-A3000 [Dest. U]
+
+tSurroundCommands = {
+[1000] = { Cmd = 'Hall in Munich', IR1 = '7E81E11E', IR2 = '7E81E11F', Cat = 'Classical', },
+[1004] = { Cmd = 'Hall in Vienna', IR1 = '7E81E51A', IR2 = '7E81E51B', Cat = 'Classical', },
+[1005] = { Cmd = 'Hall in Amsterdam', IR1 = '7E81E619', IR2 = '7E81-E618', Cat = 'Classical', },
+[1008] = { Cmd = 'Chamber', IR1 = '7E81AF50', IR2 = '7E81AF51', Cat = 'Classical', },
+[1010] = { Cmd = 'Church in Freiburg', IR1 = '7E81E817', IR2 = '7E81E816', Cat = 'Classical', },
+[1011] = { Cmd = 'Church in Royaumont', IR1 = '7E81E916', IR2 = '7EE917', Cat = 'Classical', },
+[1101] = { Cmd = 'Village Vanguard', IR1 = '7E81EB14', IR2 = '7E81EB15', Cat = 'LiveClub', },
+[1102] = { Cmd = 'The Bottom Line', IR1 = '7E81EC13', IR2 = '7E81EC12', Cat = 'LiveClub', },
+[1103] = { Cmd = 'Cellar Club', IR1 = '7E81CD32', IR2 = '7E81CD33', Cat = 'LiveClub', },
+[1104] = { Cmd = 'The Roxy Theatre', IR1 = '7E81ED12', IR2 = '7E81ED13', Cat = 'LiveClub', },
+[1105] = { Cmd = 'Warehouse Loft', IR1 = '7E81EE11', IR2 = '7E81EE10', Cat = 'LiveClub', },
+[1200] = { Cmd = '7ch Stereo', IR1 = '7E81FF00', IR2 = '7E81FF01', Cat = 'Stereo', },
+[1201] = { Cmd = '2ch Stereo', IR1 = '7E81C03F', IR2 = '7E81C03E', Cat = 'Stereo', },
+[2000] = { Cmd = 'Sports', IR1 = '7E81F807', IR2 = '7E81F806', Cat = 'Entertainment', },
+[2001] = { Cmd = 'Music Video', IR1 = '7E81F30C', IR2 = '7E81F30D', Cat = 'Entertainment', },
+[2002] = { Cmd = 'Recital/Opera', IR1 = '7E81F50A', IR2 = '7E81F50B', Cat = 'Entertainment', },
+[2004] = { Cmd = 'Action Game', IR1 = '7E81F20D', IR2 = '7E81F20C', Cat = 'Entertainment', },
+[2005] = { Cmd = 'Roleplaying Game', IR1 = '7E81CE31', IR2 = '7E81CE30', Cat = 'Entertainment', },
+[2100] = { Cmd = 'Standard', IR1 = '7E81FE01', IR2 = '7E81FE00', Cat = 'MovieTheater', },
+[2101] = { Cmd = 'Spectacle', IR1 = '7E81F906', IR2 = '7E81F907', Cat = 'MovieTheater', },
+[2102] = { Cmd = 'Sci-Fi', IR1 = '7E81FA05', IR2 = '7E81FA04', Cat = 'MovieTheater', },
+[2103] = { Cmd = 'Adventure', IR1 = '7E81FB04', IR2 = '7E81FB05', Cat = 'MovieTheater', },
+[2104] = { Cmd = 'Drama', IR1 = '7E81FC03', IR2 = '7E81FC02', Cat = 'MovieTheater', },
+[2105] = { Cmd = 'Mono Movie', IR1 = '7E81F708', IR2 = '7E81F709', Cat = 'MovieTheater', },
+[5000] = { Cmd = 'Surround Decoder', IR1 = '7E81FD02', IR2 = '7E81FD03', Cat = 'Sur. Decode', },
+[6000] = { Cmd = 'Straight', IR1 = '7E81E01F', IR2 = '7E81E01E', Cat = 'Straight', },
+[5001] = { Cmd = 'Dolby PL', IR1 = '7E81C936', IR2 = '7E81C937', Cat = '2ch. Decode', },
+[5010] = { Cmd = 'Dolby PLII / PLIIx Music', IR1 = '7E816897', IR2 = '7E816896', Cat = '2ch. Decode', },
+[5011] = { Cmd = 'Dolby PLII / PLIIx Movie', IR1 = '7E816798', IR2 = '7E816799', Cat = '2ch. Decode', },
+[5012] = { Cmd = 'Dolby PLII / PLIIx Game', IR1 = '7E81C738', IR2 = '7E81C739', Cat = '2ch. Decode', },
+[5100] = { Cmd = 'DTS NEO:6 Music', IR1 = '7E816A95', IR2 = '7E816A94', Cat = '2ch. Decode', },
+[5101] = { Cmd = 'DTS NEO:6 Cinema', IR1 = '7E816996', IR2 = '7E816997', Cat = '2ch. Decode', },
+} -- For RX-A3000 [Dest.U]
+
+g_NullDelim = tohex('00') -- Null delimiter in Play_Info texts
+g_StartDelim = tohex('40') -- Start Delimiter "@"
+g_ComDelim = tohex('3A') -- Command Delimiter ":"
+g_ParamDelim = tohex('3D') -- Parameter Delimiter "="
+g_EndDelim = string.pack('bb', 0x0D, 0x0A) -- End Delimiter "CR/LF"
+g_Query = string.pack('bb', 0x3D, 0x3F) -- Query type value "=?"
+
+tEmitCommands = {}
+--[[
+Explanation for tEmitCommands
+	A table used by Director to queue commands to deveices.
+	Set in 'emit' function
+structure
+{
+[x][1] = strCommand : Device command string
+[x][2] = bUsePowerOnDelay : used when 'CONNECT_OUTPUT'. Boolearn.
+[x][3] = tVol : used when RAMP_VOLUME_LEVEL is called. Keys: Out, Proxy, Product and Init.
+} x: Order Number in queue
+--]]
+idBusyTimer = 0
+g_debugprint = false
+g_debuglog = false
+g_tPowerState = {}
+g_tInputChangeFailed = {}
+g_tInputChangeFailedTimer = {}
+g_tNowPollingPowerState = {}
+g_tIsConnectOutputSentEarlier = {}
+
+hexmap = {
+ ['0'] = 0,
+ ['1'] = 1,
+ ['2'] = 2,
+ ['3'] = 3,
+ ['4'] = 4,
+ ['5'] = 5,
+ ['6'] = 6,
+ ['7'] = 7,
+ ['8'] = 8,
+ ['9'] = 9,
+ ['A'] = 10,
+ ['B'] = 11,
+ ['C'] = 12,
+ ['D'] = 13,
+ ['E'] = 14,
+ ['F'] = 15,
+}
+
+tVolRampTimerID = {}
+tVolumeCommands = {}
+tCurrentVolume = {}
+ChannelCommands = ''
+ChannelRampTimerID = 0
+g_tAckXM = {}
+g_tAckSIRIUS = {}
+gSerialBuf = ''
+
+g_tTunerPlayInfo = {}
+g_tSiriusPlayInfo = {}
+g_tIpodPlayInfo = {}
+g_tUSBPlayInfo = {}
+g_tNETRadioPlayInfo = {}
+g_tRhapsodyPlayInfo = {}
+g_tPcPlayInfo = {}
+g_tSIRIUSInternetRadioPlayInfo = {}
+
+CMDS = {
+['HDMI OUT OFF'] = 'MAIN:HDMIOUT=Off',
+['HDMI OUT 1'] = 'MAIN:HDMIOUT=OUT1',
+['HDMI OUT 2'] = 'MAIN:HDMIOUT=OUT2',
+['HDMI OUT 1+2'] = 'MAIN:HDMIOUT=OUT1 + 2',
+['SCENE_BD/DVD'] = 'MAIN:SCENE=Scene 1',
+['SCENE_TV'] = 'MAIN:SCENE=Scene 2',
+['SCENE_CD'] = 'MAIN:SCENE=Scene 3',
+['SCENE_RADIO'] = 'MAIN:SCENE=Scene 4',
+['SCENE_JAY_FLOYD'] = 'MAIN:SCENE=Scene 5',
+['ENHANCER_ON'] = 'MAIN:ENHANCER=On',
+['ENHANCER_OFF'] = 'MAIN:ENHANCER=Off',
+}
+
+CMDS[5000] = {} -- Receiver
+CMDS[5091] = {} -- Tuner
+CMDS[5092] = {} -- HD Radio
+CMDS[5095] = {} -- SIRIUS
+CMDS[5081] = {} -- USB
+CMDS[5082] = {} -- NET Radio
+CMDS[5083] = {} -- Rhapsody
+CMDS[5084] = {} -- PC
+CMDS[5085] = {} -- SIRIUS IR
+CMDS[5071] = {} -- iPod
+-- These empty tabels are necessary to avoid getting errors when specified
+
+CMDS['PLAY_CONTROL'] = {
+['PLAY'] = ':PLAYBACK=Play',
+['STOP'] = ':PLAYBACK=Stop',
+['PAUSE'] = ':PLAYBACK=Pause',
+['SKIP_FWD'] = ':PLAYBACK=>>|',
+['SKIP_REV'] = ':PLAYBACK=|<<',
+}
+
+CMDS['LIST_CONTROL'] = {
+['PAGE_UP'] = ':LISTPAGE=Up',
+['PAGE_DOWN'] = ':LISTPAGE=Down',
+}
+
+MENU = {}
+MENU[0] = {
+['UP'] = { IR1 = 'SYS:REMOTECODE=7A859D62', IR2 = 'SYS:REMOTECODE=7A859D63', },
+['DOWN'] = { IR1 = 'SYS:REMOTECODE=7A859C63', IR2 = 'SYS:REMOTECODE=7A859C62', },
+['LEFT'] = { IR1 = 'SYS:REMOTECODE=7A859F60', IR2 = 'SYS:REMOTECODE=7A859F61', },
+['RIGHT'] = { IR1 = 'SYS:REMOTECODE=7A859E61', IR2 = 'SYS:REMOTECODE=7A859E60', },
+['ENTER'] = { IR1 = 'SYS:REMOTECODE=7A85DE21', IR2 = 'SYS:REMOTECODE=7A85DE20', },
+['MENU'] = { IR1 = 'SYS:REMOTECODE=7A85847B', IR2 = 'SYS:REMOTECODE=7A85847A', }, -- on screen
+['RECALL'] = { IR1 = 'SYS:REMOTECODE=7A85AA55', IR2 = 'SYS:REMOTECODE=7A85AA54', }, -- return
+['CANCEL'] = { IR1 = 'SYS:REMOTECODE=7A85AA55', IR2 = 'SYS:REMOTECODE=7A85AA54', }, -- return
+['INFO'] = { IR1 = 'SYS:REMOTECODE=7F01609F', IR2 = 'SYS:REMOTECODE=7F01609E', }, -- display
+['GUIDE'] = { IR1 = 'SYS:REMOTECODE=7A856B14', IR2 = 'SYS:REMOTECODE=7A856B15', }, -- Option
+['NUMBER_0'] = { IR1 = 'SYS:REMOTECODE=7F015AA5', IR2 = 'SYS:REMOTECODE=7F015AA4', },
+['NUMBER_1'] = { IR1 = 'SYS:REMOTECODE=7F0151AE', IR2 = 'SYS:REMOTECODE=7F0151AF', },
+['NUMBER_2'] = { IR1 = 'SYS:REMOTECODE=7F0152AD', IR2 = 'SYS:REMOTECODE=7F0152AC', },
+['NUMBER_3'] = { IR1 = 'SYS:REMOTECODE=7F0153AC', IR2 = 'SYS:REMOTECODE=7F0153AD', },
+['NUMBER_4'] = { IR1 = 'SYS:REMOTECODE=7F0154AB', IR2 = 'SYS:REMOTECODE=7F0154AA', },
+['NUMBER_5'] = { IR1 = 'SYS:REMOTECODE=7F0155AA', IR2 = 'SYS:REMOTECODE=7F0155AB', },
+['NUMBER_6'] = { IR1 = 'SYS:REMOTECODE=7F0156A9', IR2 = 'SYS:REMOTECODE=7F0156A8', },
+['NUMBER_7'] = { IR1 = 'SYS:REMOTECODE=7F0157A8', IR2 = 'SYS:REMOTECODE=7F0157A9', },
+['NUMBER_8'] = { IR1 = 'SYS:REMOTECODE=7F0158A7', IR2 = 'SYS:REMOTECODE=7F0158A6', },
+['NUMBER_9'] = { IR1 = 'SYS:REMOTECODE=7F0159A6', IR2 = 'SYS:REMOTECODE=7F0159A7', },
+['POUND'] = { IR1 = 'SYS:REMOTECODE=7F015CA3', IR2 = 'SYS:REMOTECODE=7F015CA2', }, -- Number Enter
+} -- For Receiver operation. Same as Main Zone Menu Keys
+MENU[101] = {
+['UP'] = { IR1 = 'SYS:REMOTECODE=7A859D62', IR2 = 'SYS:REMOTECODE=7A859D63', },
+['DOWN'] = { IR1 = 'SYS:REMOTECODE=7A859C63', IR2 = 'SYS:REMOTECODE=7A859C62', },
+['LEFT'] = { IR1 = 'SYS:REMOTECODE=7A859F60', IR2 = 'SYS:REMOTECODE=7A859F61', },
+['RIGHT'] = { IR1 = 'SYS:REMOTECODE=7A859E61', IR2 = 'SYS:REMOTECODE=7A859E60', },
+['ENTER'] = { IR1 = 'SYS:REMOTECODE=7A85DE21', IR2 = 'SYS:REMOTECODE=7A85DE20', },
+['MENU'] = { IR1 = 'SYS:REMOTECODE=7A85847B', IR2 = 'SYS:REMOTECODE=7A85847A', }, -- on screen
+['RECALL'] = { IR1 = 'SYS:REMOTECODE=7A85AA55', IR2 = 'SYS:REMOTECODE=7A85AA54', }, -- return
+['CANCEL'] = { IR1 = 'SYS:REMOTECODE=7A85AA55', IR2 = 'SYS:REMOTECODE=7A85AA54', }, -- return
+['INFO'] = { IR1 = 'SYS:REMOTECODE=7F01609F', IR2 = 'SYS:REMOTECODE=7F01609E', }, -- display
+['GUIDE'] = { IR1 = 'SYS:REMOTECODE=7A856B14', IR2 = 'SYS:REMOTECODE=7A856B15', }, -- Option
+['NUMBER_0'] = { IR1 = 'SYS:REMOTECODE=7F015AA5', IR2 = 'SYS:REMOTECODE=7F015AA4', },
+['NUMBER_1'] = { IR1 = 'SYS:REMOTECODE=7F0151AE', IR2 = 'SYS:REMOTECODE=7F0151AF', },
+['NUMBER_2'] = { IR1 = 'SYS:REMOTECODE=7F0152AD', IR2 = 'SYS:REMOTECODE=7F0152AC', },
+['NUMBER_3'] = { IR1 = 'SYS:REMOTECODE=7F0153AC', IR2 = 'SYS:REMOTECODE=7F0153AD', },
+['NUMBER_4'] = { IR1 = 'SYS:REMOTECODE=7F0154AB', IR2 = 'SYS:REMOTECODE=7F0154AA', },
+['NUMBER_5'] = { IR1 = 'SYS:REMOTECODE=7F0155AA', IR2 = 'SYS:REMOTECODE=7F0155AB', },
+['NUMBER_6'] = { IR1 = 'SYS:REMOTECODE=7F0156A9', IR2 = 'SYS:REMOTECODE=7F0156A8', },
+['NUMBER_7'] = { IR1 = 'SYS:REMOTECODE=7F0157A8', IR2 = 'SYS:REMOTECODE=7F0157A9', },
+['NUMBER_8'] = { IR1 = 'SYS:REMOTECODE=7F0158A7', IR2 = 'SYS:REMOTECODE=7F0158A6', },
+['NUMBER_9'] = { IR1 = 'SYS:REMOTECODE=7F0159A6', IR2 = 'SYS:REMOTECODE=7F0159A7', },
+['POUND'] = { IR1 = 'SYS:REMOTECODE=7F015CA3', IR2 = 'SYS:REMOTECODE=7F015CA2', }, -- Number Enter
+} -- Main Zone Menu Keys
+MENU[202] = {
+['UP'] = { IR1 = 'SYS:REMOTECODE=7A852B54', IR2 = 'SYS:REMOTECODE=7A852B55', },
+['DOWN'] = { IR1 = 'SYS:REMOTECODE=7A852C53', IR2 = 'SYS:REMOTECODE=7A852C52', },
+['LEFT'] = { IR1 = 'SYS:REMOTECODE=7A852D52', IR2 = 'SYS:REMOTECODE=7A852D53', },
+['RIGHT'] = { IR1 = 'SYS:REMOTECODE=7A852E51', IR2 = 'SYS:REMOTECODE=7A852E50', },
+['ENTER'] = { IR1 = 'SYS:REMOTECODE=7A852F50', IR2 = 'SYS:REMOTECODE=7A852F51', },
+['MENU'] = { IR1 = 'SYS:REMOTECODE=7A856C13', IR2 = 'SYS:REMOTECODE=7A856C12', }, -- Option
+['RECALL'] = { IR1 = 'SYS:REMOTECODE=7A853C43', IR2 = 'SYS:REMOTECODE=7A853C42', }, -- return
+['CANCEL'] = { IR1 = 'SYS:REMOTECODE=7A853C43', IR2 = 'SYS:REMOTECODE=7A853C42', }, -- return
+['INFO'] = { IR1 = 'SYS:REMOTECODE=7F01807F', IR2 = 'SYS:REMOTECODE=7F01807E', }, -- display
+['GUIDE'] = { IR1 = 'SYS:REMOTECODE=7A856C13', IR2 = 'SYS:REMOTECODE=7A856C12', }, -- Option
+['NUMBER_0'] = { IR1 = 'SYS:REMOTECODE=7F017A85', IR2 = 'SYS:REMOTECODE=7F017A84', },
+['NUMBER_1'] = { IR1 = 'SYS:REMOTECODE=7F01718E', IR2 = 'SYS:REMOTECODE=7F01718F', },
+['NUMBER_2'] = { IR1 = 'SYS:REMOTECODE=7F01728D', IR2 = 'SYS:REMOTECODE=7F01728C', },
+['NUMBER_3'] = { IR1 = 'SYS:REMOTECODE=7F01738C', IR2 = 'SYS:REMOTECODE=7F01738D', },
+['NUMBER_4'] = { IR1 = 'SYS:REMOTECODE=7F01748B', IR2 = 'SYS:REMOTECODE=7F01748A', },
+['NUMBER_5'] = { IR1 = 'SYS:REMOTECODE=7F01758A', IR2 = 'SYS:REMOTECODE=7F01758B', },
+['NUMBER_6'] = { IR1 = 'SYS:REMOTECODE=7F017689', IR2 = 'SYS:REMOTECODE=7F017688', },
+['NUMBER_7'] = { IR1 = 'SYS:REMOTECODE=7F017788', IR2 = 'SYS:REMOTECODE=7F017789', },
+['NUMBER_8'] = { IR1 = 'SYS:REMOTECODE=7F017887', IR2 = 'SYS:REMOTECODE=7F017886', },
+['NUMBER_9'] = { IR1 = 'SYS:REMOTECODE=7F017986', IR2 = 'SYS:REMOTECODE=7F017987', },
+['POUND'] = { IR1 = 'SYS:REMOTECODE=7F017C83', IR2 = 'SYS:REMOTECODE=7F017C82', }, -- Number Enter
+} -- Zone2 Menu Keys
+MENU[303] = {
+['UP'] = { IR1 = 'SYS:REMOTECODE=7A85304F', IR2 = 'SYS:REMOTECODE=7A85304E', },
+['DOWN'] = { IR1 = 'SYS:REMOTECODE=7A85314E', IR2 = 'SYS:REMOTECODE=7A85314F', },
+['LEFT'] = { IR1 = 'SYS:REMOTECODE=7A85324D', IR2 = 'SYS:REMOTECODE=7A85324C', },
+['RIGHT'] = { IR1 = 'SYS:REMOTECODE=7A85334C', IR2 = 'SYS:REMOTECODE=7A85334D', },
+['ENTER'] = { IR1 = 'SYS:REMOTECODE=7A85344B', IR2 = 'SYS:REMOTECODE=7A85344A', },
+['MENU'] = { IR1 = 'SYS:REMOTECODE=7A856D12', IR2 = 'SYS:REMOTECODE=7A856D13', }, -- Option
+['RECALL'] = { IR1 = 'SYS:REMOTECODE=7A853F40', IR2 = 'SYS:REMOTECODE=7A853F41', }, -- return
+['CANCEL'] = { IR1 = 'SYS:REMOTECODE=7A853F40', IR2 = 'SYS:REMOTECODE=7A853F41', }, -- return
+['INFO'] = { IR1 = 'SYS:REMOTECODE=7F01A05F', IR2 = 'SYS:REMOTECODE=7F01A05E', }, -- display
+['GUIDE'] = { IR1 = 'SYS:REMOTECODE=7A856D12', IR2 = 'SYS:REMOTECODE=7A856D13', }, -- Option
+['NUMBER_0'] = { IR1 = 'SYS:REMOTECODE=7F019A65', IR2 = 'SYS:REMOTECODE=7F019A64', },
+['NUMBER_1'] = { IR1 = 'SYS:REMOTECODE=7F01916E', IR2 = 'SYS:REMOTECODE=7F01916F', },
+['NUMBER_2'] = { IR1 = 'SYS:REMOTECODE=7F01926D', IR2 = 'SYS:REMOTECODE=7F01926C', },
+['NUMBER_3'] = { IR1 = 'SYS:REMOTECODE=7F01936C', IR2 = 'SYS:REMOTECODE=7F01936D', },
+['NUMBER_4'] = { IR1 = 'SYS:REMOTECODE=7F01946B', IR2 = 'SYS:REMOTECODE=7F01946A', },
+['NUMBER_5'] = { IR1 = 'SYS:REMOTECODE=7F01956A', IR2 = 'SYS:REMOTECODE=7F01956B', },
+['NUMBER_6'] = { IR1 = 'SYS:REMOTECODE=7F019669', IR2 = 'SYS:REMOTECODE=7F019668', },
+['NUMBER_7'] = { IR1 = 'SYS:REMOTECODE=7F019768', IR2 = 'SYS:REMOTECODE=7F019769', },
+['NUMBER_8'] = { IR1 = 'SYS:REMOTECODE=7F019867', IR2 = 'SYS:REMOTECODE=7F019866', },
+['NUMBER_9'] = { IR1 = 'SYS:REMOTECODE=7F019966', IR2 = 'SYS:REMOTECODE=7F019967', },
+['POUND'] = { IR1 = 'SYS:REMOTECODE=7F019C63', IR2 = 'SYS:REMOTECODE=7F019C62', }, -- Number Enter
+} -- Zone3 Menu Keys
+MENU[404] = {
+['UP'] = { IR1 = 'SYS:REMOTECODE=7A85354A', IR2 = 'SYS:REMOTECODE=7A85354B', },
+['DOWN'] = { IR1 = 'SYS:REMOTECODE=7A853649', IR2 = 'SYS:REMOTECODE=7A853648', },
+['LEFT'] = { IR1 = 'SYS:REMOTECODE=7A853748', IR2 = 'SYS:REMOTECODE=7A853749', },
+['RIGHT'] = { IR1 = 'SYS:REMOTECODE=7A853847', IR2 = 'SYS:REMOTECODE=7A853846', },
+['ENTER'] = { IR1 = 'SYS:REMOTECODE=7A853946', IR2 = 'SYS:REMOTECODE=7A853947', },
+['MENU'] = { IR1 = 'SYS:REMOTECODE=7A856E11', IR2 = 'SYS:REMOTECODE=7A856E10', }, -- Option
+['RECALL'] = { IR1 = 'SYS:REMOTECODE=7A85423D', IR2 = 'SYS:REMOTECODE=7A85423C', }, -- return
+['CANCEL'] = { IR1 = 'SYS:REMOTECODE=7A85423D', IR2 = 'SYS:REMOTECODE=7A85423C', }, -- return
+['INFO'] = { IR1 = 'SYS:REMOTECODE=7F01C03F', IR2 = 'SYS:REMOTECODE=7F01C03E', }, -- display
+['GUIDE'] = { IR1 = 'SYS:REMOTECODE=7A856E11', IR2 = 'SYS:REMOTECODE=7A856E10', }, -- Option
+['NUMBER_0'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_1'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_2'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_3'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_4'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_5'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_6'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_7'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_8'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['NUMBER_9'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', },
+['POUND'] = { IR1 = 'SYS:REMOTECODE=NOTAVAIL', IR2 = 'SYS:REMOTECODE=NOTAVAIL', }, -- Number Enter
+} -- Zone4 Menu Keys
+
+RESP = {}
+tInputResponseMap = {
+['TUNER'] = 'HDTUNER',
+['SIRIUS'] = 'SIRIUSTUNER',
+['USB'] = 'USB',
+['NET RADIO'] = 'NET RADIO',
+['Rhapsody'] = 'RHAPSODY',
+['PC'] = 'PC',
+['SIRIUS InternetRadio'] = 'SIRIUSIR',
+['iPod'] = 'iPOD',
+['Bluetooth'] = 'BLUETOOTH',
+['UAW'] = 'UAW',
+['AUDIO1'] = 'AUDIO 1',
+['AUDIO2'] = 'AUDIO 2',
+['AUDIO3'] = 'AUDIO 3',
+['AUDIO4'] = 'AUDIO 4',
+['V-AUX'] = 'VIDEO AUX',
+['AV1'] = 'AV 1',
+['AV2'] = 'AV 2',
+['AV3'] = 'AV 3',
+['AV4'] = 'AV 4',
+['AV5'] = 'AV 5',
+['AV6'] = 'AV 6',
+['AV7'] = 'AV 7',
+['MULTI CH'] = 'Multi Channel Input',
+['PHONO'] = 'PHONO',
+} -- For RX-A3000 [Dest. U]
+
+tSurroundResponses = {
+['Hall in Munich'] = { ID = 1000, Name = 'Hall in Munich', },
+['Hall in Vienna'] = { ID = 1004, Name = 'Hall in Vienna', },
+['Hall in Amsterdam'] = { ID = 1005, Name = 'Hall in Amsterdam', },
+['Chamber'] = { ID = 1008, Name = 'Chamber', },
+['Church in Freiburg'] = { ID = 1010, Name = 'Church in Freiburg', },
+['Church in Royaumont'] = { ID = 1011, Name = 'Church in Royaumont', },
+['Village Vanguard'] = { ID = 1101, Name = 'Village Vanguard', },
+['The Bottom Line'] = { ID = 1102, Name = 'The Bottom Line', },
+['Cellar Club'] = { ID = 1103, Name = 'Cellar Club', },
+['The Roxy Theatre'] = { ID = 1104, Name = 'The Roxy Theatre', },
+['Warehouse Loft'] = { ID = 1105, Name = 'Warehouse Loft', },
+['7ch Stereo'] = { ID = 1200, Name = '7ch Stereo', },
+['2ch Stereo'] = { ID = 1201, Name = '2ch Stereo', },
+['Sports'] = { ID = 2000, Name = 'Sports', },
+['Music Video'] = { ID = 2001, Name = 'Music Video', },
+['Recital/Opera'] = { ID = 2002, Name = 'Recital/Opera', },
+['Action Game'] = { ID = 2004, Name = 'Action Game', },
+['Roleplaying Game'] = { ID = 2005, Name = 'Roleplaying Game', },
+['Standard'] = { ID = 2100, Name = 'Standard', },
+['Spectacle'] = { ID = 2101, Name = 'Spectacle', },
+['Sci-Fi'] = { ID = 2102, Name = 'Sci-Fi', },
+['Adventure'] = { ID = 2103, Name = 'Adventure', },
+['Drama'] = { ID = 2104, Name = 'Drama', },
+['Mono Movie'] = { ID = 2105, Name = 'Mono Movie', },
+['Surround Decoder'] = { ID = 5000, Name = 'Surround Decoder', },
+['Straight'] = { ID = 6000, Name = 'Straight', },
+['Dolby PL'] = { ID = 5001, Name = 'Dolby PL', },
+['Dolby PLII Music'] = { ID = 5010, Name = 'Dolby PLII / PLIIx Music', },
+['Dolby PLIIx Music'] = { ID = 5010, Name = 'Dolby PLII / PLIIx Music', },
+['Dolby PLII Movie'] = { ID = 5011, Name = 'Dolby PLII / PLIIx Movie', },
+['Dolby PLIIx Movie'] = { ID = 5011, Name = 'Dolby PLII / PLIIx Movie', },
+['Dolby PLII Game'] = { ID = 5012, Name = 'Dolby PLII / PLIIx Game', },
+['Dolby PLIIx Game'] = { ID = 5012, Name = 'Dolby PLII / PLIIx Game', },
+['DTS NEO:6 Music'] = { ID = 5100, Name = 'DTS NEO:6 Music', },
+['DTS NEO:6 Cinema'] = { ID = 5101, Name = 'DTS NEO:6 Cinema', },
+} -- For RX-A3000 [Dest.U]
+
+tOutputCommandMap = {
+[0] = 'DUMMY',
+[101] = 'MAIN',
+[202] = 'ZONE2',
+[303] = 'ZONE3',
+[404] = 'ZONE4',
+[91] = 'DUMMY',
+[92] = 'DUMMY',
+[95] = 'DUMMY',
+[81] = 'DUMMY',
+[82] = 'DUMMY',
+[83] = 'DUMMY',
+[84] = 'DUMMY',
+[85] = 'DUMMY',
+[71] = 'DUMMY',
+} -- For RX-A3000 [Dest. U]
+
+tOutputCommandMapByName = {
+['SYS'] = 0,
+['MAIN'] = 101,
+['ZONE2'] = 202,
+['ZONE3'] = 303,
+['ZONE4'] = 404,
+} -- For RX-A3000 [Dest. U]
+
+tInputCommandMap = {
+['HDTUNER'] = { Cmd = 'TUNER', },
+['SIRIUSTUNER'] = { Cmd = 'SIRIUS', },
+['USB'] = { Cmd = 'USB', },
+['NET RADIO'] = { Cmd = 'NET RADIO', },
+['RHAPSODY'] = { Cmd = 'Rhapsody', },
+['PC'] = { Cmd = 'PC', },
+['SIRIUSIR'] = { Cmd = 'SIRIUS InternetRadio', },
+['iPOD'] = { Cmd = 'iPod', },
+['BLUETOOTH'] = { Cmd = 'Bluetooth', },
+['UAW'] = { Cmd = 'UAW', },
+['AUDIO 1'] = { Cmd = 'AUDIO1', },
+['AUDIO 2'] = { Cmd = 'AUDIO2', },
+['AUDIO 3'] = { Cmd = 'AUDIO3', },
+['AUDIO 4'] = { Cmd = 'AUDIO4', },
+['VIDEO AUX'] = { Cmd = 'V-AUX', },
+['AV 1'] = { Cmd = 'AV1', },
+['AV 2'] = { Cmd = 'AV2', },
+['AV 3'] = { Cmd = 'AV3', },
+['AV 4'] = { Cmd = 'AV4', },
+['AV 5'] = { Cmd = 'AV5', },
+['AV 6'] = { Cmd = 'AV6', },
+['AV 7'] = { Cmd = 'AV7', },
+['Multi Channel Input'] = { Cmd = 'MULTI CH', },
+['PHONO'] = { Cmd = 'PHONO', },
+['AM Antenna'] = { Cmd = 'TUNER', Band = 'AM', },
+['FM Antenna'] = { Cmd = 'TUNER', Band = 'FM', },
+['SIRIUS Antenna'] = { Cmd = 'SIRIUS', },
+} -- For RX-A3000 [Dest. U]
+
+tInputCommandMap[101] = {
+['HDTUNER'] = 'TUNER',
+['SIRIUSTUNER'] = 'SIRIUS',
+['USB'] = 'USB',
+['NET RADIO'] = 'NET RADIO',
+['RHAPSODY'] = 'Rhapsody',
+['PC'] = 'PC',
+['SIRIUSIR'] = 'SIRIUS InternetRadio',
+['iPOD'] = 'iPod',
+['BLUETOOTH'] = 'Bluetooth',
+['UAW'] = 'UAW',
+['AUDIO 1'] = 'AUDIO1',
+['AUDIO 2'] = 'AUDIO2',
+['AUDIO 3'] = 'AUDIO3',
+['AUDIO 4'] = 'AUDIO4',
+['VIDEO AUX'] = 'V-AUX',
+['AV 1'] = 'AV1',
+['AV 2'] = 'AV2',
+['AV 3'] = 'AV3',
+['AV 4'] = 'AV4',
+['AV 5'] = 'AV5',
+['AV 6'] = 'AV6',
+['AV 7'] = 'AV7',
+['Multi Channel Input'] = 'MULTI CH',
+['PHONO'] = 'PHONO',
+['AM Antenna'] = 'TUNER',
+['FM Antenna'] = 'TUNER',
+['SIRIUS Antenna'] = 'SIRIUS',
+} -- For RX-A3000 [Dest. U]
+tInputCommandMap[202] = {
+['HDTUNER'] = 'TUNER',
+['SIRIUSTUNER'] = 'SIRIUS',
+['USB'] = 'USB',
+['NET RADIO'] = 'NET RADIO',
+['RHAPSODY'] = 'Rhapsody',
+['PC'] = 'PC',
+['SIRIUSIR'] = 'SIRIUS InternetRadio',
+['iPOD'] = 'iPod',
+['BLUETOOTH'] = 'Bluetooth',
+['UAW'] = 'UAW',
+['AUDIO 1'] = 'AUDIO1',
+['AUDIO 2'] = 'AUDIO2',
+['AUDIO 3'] = 'AUDIO3',
+['AUDIO 4'] = 'AUDIO4',
+['VIDEO AUX'] = 'V-AUX',
+['AV 1'] = 'AV1',
+['AV 2'] = 'AV2',
+['AV 3'] = 'AV3',
+['AV 4'] = 'AV4',
+['PHONO'] = 'PHONO',
+['AM Antenna'] = 'TUNER',
+['FM Antenna'] = 'TUNER',
+['SIRIUS Antenna'] = 'SIRIUS',
+} -- For RX-A3000 [Dest. U]
+tInputCommandMap[303] = {
+['HDTUNER'] = 'TUNER',
+['SIRIUSTUNER'] = 'SIRIUS',
+['USB'] = 'USB',
+['NET RADIO'] = 'NET RADIO',
+['RHAPSODY'] = 'Rhapsody',
+['PC'] = 'PC',
+['SIRIUSIR'] = 'SIRIUS InternetRadio',
+['iPOD'] = 'iPod',
+['BLUETOOTH'] = 'Bluetooth',
+['UAW'] = 'UAW',
+['AUDIO 1'] = 'AUDIO1',
+['AUDIO 2'] = 'AUDIO2',
+['AUDIO 3'] = 'AUDIO3',
+['AUDIO 4'] = 'AUDIO4',
+['VIDEO AUX'] = 'V-AUX',
+['AV 1'] = 'AV1',
+['AV 2'] = 'AV2',
+['AV 3'] = 'AV3',
+['AV 4'] = 'AV4',
+['PHONO'] = 'PHONO',
+['AM Antenna'] = 'TUNER',
+['FM Antenna'] = 'TUNER',
+['SIRIUS Antenna'] = 'SIRIUS',
+} -- For RX-A3000 [Dest. U]
+tInputCommandMap[404] = {
+['AUDIO 1'] = 'AUDIO1',
+['AUDIO 2'] = 'AUDIO2',
+['AUDIO 3'] = 'AUDIO3',
+['AUDIO 4'] = 'AUDIO4',
+['VIDEO AUX'] = 'V-AUX',
+['AV 1'] = 'AV1',
+['AV 2'] = 'AV2',
+['AV 3'] = 'AV3',
+['AV 4'] = 'AV4',
+['AV 5'] = 'AV5',
+['AV 6'] = 'AV6',
+['AV 7'] = 'AV7',
+} -- For RX-A3000 [Dest. U]
+
+tSubUnitIdMapByName = {
+['SYS'] = 0,
+['HDRADIO'] = 92,
+['SIRIUS'] = 95,
+['USB'] = 81,
+['NETRADIO'] = 82,
+['RHAP'] = 83,
+['PC'] = 84,
+['SIRIUSIR'] = 85,
+['IPOD'] = 71,
+['MAIN'] = 101,
+['ZONE2'] = 202,
+['ZONE3'] = 303,
+['ZONE4'] = 404,
+} -- For RX-A3000 [Dest. U]
+
+tSubUnitNameMapById = {
+[0] = 'SYS',
+[92] = 'HDRADIO',
+[95] = 'SIRIUS',
+[81] = 'USB',
+[82] = 'NETRADIO',
+[83] = 'RHAP',
+[84] = 'PC',
+[85] = 'SIRIUSIR',
+[71] = 'IPOD',
+[101] = 'MAIN',
+[202] = 'ZONE2',
+[303] = 'ZONE3',
+[404] = 'ZONE4',
+} -- For RX-A3000 [Dest. U]
+
+tSetInputTrack = {}
+tSetTunerInputTrack = {}
+tVolumeCurve = {
+-- 5dB STEPS [-80.5dB to -40dB]
+-805,-755,-705,-655,-605,
+-555,-505,-455,-405,
+-- 2.5 dB STEPS [-38.0dB to -20.5dB]
+-380,-355,-330,-305,-280,
+-255,-230,-205
+-- 1dB STEPS [-19dB to -10.5dB]
+-195,-185,-175,-165,-155,
+-145,-135,-125,-115,-105,
+-- .5dB STEPS [-10.0dB to 16.5dB]
+-100,-95,-90,-85,-80,
+-75,-70,-65,-60,-55,
+-50,-45,-40,-35,-30,
+-25,-20,-15,-10,-5,
+0,5,10,15,20,25,30,35,
+40,45,50,55,60,
+65,70,75,80,85,
+90,95,100,105,110,
+115,120,125,130,135,
+140,145,155,160,165,
+}
+
+idConnectToNetworkTimer = 0
+NetworkIdBinding = 6001
+mAddress = tostring(Properties['IP Address'])
+mPort = Properties['IP Port']
+mNetConnected = tostring(Properties['Connected To Network'])
+powerOnDelayValue = Properties['Power On Delay-Seconds']
+intraCommandDelayValue = Properties['Command Delay-Milliseconds']
+intraVolRampDelayValue = Properties['Volume Ramp Delay-Milliseconds']
+intraRetrySetInputDelayValue = Properties['Retry Set Input Delay-Milliseconds']
+intraRoomIdDetectionValue = Properties['RoomID Detection Limit-Milliseconds']
+KeepAliveTimerValue = Properties['Keep Alive Timer Delay-Seconds']
+intraIpPortSetDelayValue = Properties['IP Port Set Delay-Seconds']
+intraUpdateVolumeFeedbackDelay = Properties['Update Volume Feedback Delay-Milliseconds'] -- Added on 6/21/2010
+idKeepAliveTimer = C4:AddTimer(KeepAliveTimerValue, 'SECONDS', true)
+KeepAliveCmd = 'SYS:MODELNAME=?'
+GetVerCmd = 'SYS:VERSION=?'
+g_TreeVersion = ''
+g_IsSourcePollingNecessary = false
+g_SetInputCount = 0
+g_SetInputCountLimit = 30
+g_tRoomIdDetection = {}
+g_tRoomIdDetectionTimer = {}
+g_IsReservedToChangeIpPort = false
+
+g_tFeedbackProxyVolumeLevel = {} -- Added on 6/21/2010
+g_tFeedbackProductVolumeLevel = {} -- Added on 6/21/2010
+g_tProductVolumeLevel = {} -- Added on 6/21/2010
+
+g_tIsVolRampStarted = {} -- Added on 6/17/2010
+g_tUpdateVolumeFeedbackTimer = {} -- Added on 6/21/2010
+
+ProductProxyID = 5000
+
+function ReceivedFromProxy(idBinding, strCommand, tParams)
+  dbg('ReceivedFromProxy, Command: ' .. strCommand)
+  dbg('ReceivedFromProxy, BindingID: ' .. idBinding)
+  if tParams==nil then
+    tParams={}
+  end
+
+  tParams['BindingID'] = idBinding
+
+  if g_debugprint == true then
+    for j,k in pairs(tParams) do
+      dbg('ReceivedFromProxy_ParamID: ' .. j .. ' - ParamValue: ' .. k)
+	end
+  end
+
+  if (strCommand == 'CONNECT_OUTPUT') then
+    local output=tParams['OUTPUT'] % 1000
+    dbg('Output: ' .. tParams['OUTPUT'])
+    if (g_tPowerState[output]==nil) or (g_tPowerState[output]=='OFF') then
+      CMDS.CONNECT_OUTPUT(tParams,strCommand)
+    end
+    return
+  elseif (strCommand == 'ON') or (strCommand == 'OFF') then
+    --ignore these commands; CONNECT_OUTPUT commands will turn on unit; Off is handled via DISCONNECT Macros
+    return
+  end
+  if (CMDS[strCommand] ~= nil) and (type(CMDS[strCommand])=='function') then
+    CMDS[strCommand] (tParams, strCommand)
+  elseif (CMDS[idBinding][strCommand] ~= nil) then
+    emit(CMDS[idBinding][strCommand], strCommand, 'PUT')
+  elseif (CMDS[strCommand] ~= nil) then
+    emit(CMDS[strCommand], strCommand, 'PUT')
+  else
+    dbg('ReceivedFromProxy - Command not defined: '.. strCommand)
+  end
+
+end
+
+function ExecuteCommand(Command, Parameters)
+  dbg('ExecuteCommand: ' .. Command)
+  if (CMDS[Command] ~= nil) and (type(CMDS[Command])=='function') then
+    if Parameters~=nil then
+      CMDS[Command] (tParams,Command)
+    end
+--  elseif (CMDS[idBinding][Command] ~= nil) then
+--    emit(CMDS[idBinding][Command],Command, tParams.OUTPUT, 'PUT')
+  elseif (CMDS[Command] ~= nil) then
+	dbg(CMDS[Command])
+    emit(CMDS[Command],Command, 'PUT')
+  else
+    dbg('ReceivedFromProxy - Command not defined: '.. Command)
+  end
+end
+
+function OnTimerExpired(idTimer) -- Called by Director
+  if idTimer == idConnectToNetworkTimer then
+    dbg('idConnectToNetworkTimer has expired')
+    if (tEmitCommands[1][1]~=nil) then
+      C4:NetDisconnect(NetworkIdBinding, mPort)
+      C4:NetConnect(NetworkIdBinding, mPort)
+    end
+    return
+  end
+  if (idTimer == idEmitCommandsTimer) then
+    if (idBusyTimer ~= 0) then
+      return
+    end
+	if (mNetConnected ~= true) then
+      if (tEmitCommands[1] ~= nil) then
+        C4:NetDisconnect(NetworkIdBinding, mPort)
+        C4:NetConnect(NetworkIdBinding, mPort)
+      end
+      return
+    end
+    if tEmitCommands[1] ~= nil then
+      -- Added on 6/17/2010 from here
+      if (tEmitCommands[1][3] ~= nil) then
+        local volout = tEmitCommands[1][3].Out
+        local volproxy = tEmitCommands[1][3].Proxy
+        local volproduct = tEmitCommands[1][3].Product
+        if (g_tIsVolRampStarted[volout] == nil) and (tEmitCommands[1][3].Init == nil) then
+          table.remove(tEmitCommands, 1)
+		  return
+		end
+        tCurrentVolume[volout] = volproxy
+        g_tProductVolumeLevel[volout] = volproduct
+        C4:SendToProxy(ProductProxyID,'VOLUME_LEVEL_CHANGED', {LEVEL = volproxy, OUTPUT = volout+4000})
+        dbg('Sent ' .. tOutputConnMap[volout] .. ' VOLUME_LEVEL_CHANGED to proxy at tEmitCommands: ' .. volproxy ..'%')
+      end
+      -- to here
+      dbg("Connected... Sending Packet: " .. tEmitCommands[1][1])
+      C4:SendToNetwork(NetworkIdBinding, tonumber(mPort), tEmitCommands[1][1])
+      C4:KillTimer(idKeepAliveTimer)
+      idKeepAliveTimer = C4:AddTimer(KeepAliveTimerValue, 'SECONDS', true)
+      if (tEmitCommands[1][2] == true) then
+        idBusyTimer = C4:AddTimer(powerOnDelayValue, 'SECONDS', false)
+      end
+      table.remove(tEmitCommands, 1)
+    end
+--	  dbg('Items Remaining in Command Stack: ' .. table.maxn(tEmitCommands))
+    if tEmitCommands[1] == nil then
+      C4:KillTimer(idEmitCommandsTimer)
+      idEmitCommandsTimer = nil
+    end
+    return
+  end
+  if (idTimer == idBusyTimer) then
+    idBusyTimer = C4:KillTimer(idBusyTimer)
+    return
+  end
+  for lngOutputID,VolRampTimerID in pairs(tVolRampTimerID) do
+    if idTimer == VolRampTimerID then
+      if tVolumeCommands[lngOutputID][1]~=nil then
+        tParams={['LEVEL']= tVolumeCommands[lngOutputID][1] , ['OUTPUT']=4000+lngOutputID}
+        CMDS.RAMP_VOLUME_LEVEL(tParams,'RAMP_VOLUME_LEVEL')
+        table.remove(tVolumeCommands[lngOutputID],1)
+      end
+      if tVolumeCommands[lngOutputID][1]==nil then
+        C4:KillTimer(tVolRampTimerID[lngOutputID]) -- modified on 6/17/2010
+        tVolRampTimerID[lngOutputID] = nil
+      end
+      return
+    end
+  end
+  if idTimer == ChannelRampTimerID then
+    emit(ChannelCommands)
+    return
+  end
+  if (idTimer == g_DebugTimer) then
+    dbg('Turning Debug Mode back to Print [default] (timer expired)')
+    C4:UpdateProperty('Debug Mode', 'Off')
+    g_debugprint = false
+    g_debuglog = false
+    g_DebugTimer = C4:KillTimer(g_DebugTimer)
+    return
+  end
+  for j, k in pairs(g_tInputChangeFailedTimer) do
+    if (idTimer == g_tInputChangeFailedTimer[j]) then
+      g_tInputChangeFailedTimer[j] = C4:KillTimer(g_tInputChangeFailedTimer[j])
+      CMDS.SET_INPUT({}, 'SET_INPUT_from_OnTimerExpired', j)
+	  return
+	end
+  end
+  for j, k in pairs(g_tRoomIdDetectionTimer) do
+    if (idTimer == g_tRoomIdDetectionTimer[j]) then
+	  g_tRoomIdDetectionTimer[j] = C4:KillTimer(g_tRoomIdDetectionTimer[j])
+	  g_tRoomIdDetection[j] = false
+	end
+  end
+  if (idTimer == idKeepAliveTimer) then
+    emit(KeepAliveCmd, 'KEEP_ALIVE', 'PUT')
+  end
+  if (idTimer == idReservedToChangeIpPortTimer) then
+    if (NewPort ~= nil) and (g_IsReservedToChangeIpPort == true) then
+      C4:NetDisconnect(NetworkIdBinding, mPort)
+      mPort = NewPort
+	  dbg('Now IP Port setting is changed to ' .. NewPort .. '. Make sure if the receiver is once shut off.')
+	  idReservedToChangeIpPortTimer = C4:KillTimer(idReservedToChangeIpPortTimer)
+      C4:NetConnect(NetworkIdBinding, mPort)
+    else
+      emit('SYS:YNCAPORT=' .. mPort, 'CHANGE_IP_PORT_BACK_TO_' .. mPort, 'PUT')
+	  Properties['IP Port'] = tonumber(mPort)
+	  dbg('IP Port setting goes back to ' .. mPort)
+	end
+    NewPort = nil
+    g_IsReservedToChangeIpPort = false
+  end
+  for k, v in pairs(g_tUpdateVolumeFeedbackTimer) do -- added on 6/22/2010
+    if idTimer == v then
+	  if (g_tIsVolRampStarted[k] == nil) then
+        g_tProductVolumeLevel[k] = g_tFeedbackProductVolumeLevel[k]
+        tCurrentVolume[k] = g_tFeedbackProxyVolumeLevel[k]
+		g_tUpdateVolumeFeedbackTimer[k] = C4:KillTimer(g_tUpdateVolumeFeedbackTimer[k])
+        C4:SendToProxy(ProductProxyID,'VOLUME_LEVEL_CHANGED', {LEVEL = g_tFeedbackProxyVolumeLevel[k], OUTPUT = k+4000}) -- Modified on 6/22/2010
+        dbg('Sent ' .. tOutputConnMap[k] .. ' VOLUME_LEVEL_CHANGED to proxy at tUpdateVolume: ' .. g_tFeedbackProxyVolumeLevel[k] ..'%')
+		return
+      end
+    end
+  end
+end
+
+function OnDriverDestroyed() -- No need to change unless any timers are newly added
+  if (g_DebugTimer) then
+    g_DebugTimer = C4:KillTimer(g_DebugTimer)
+  end
+  for lngOutputID,VolRampTimerID in pairs(tVolRampTimerID) do
+    if (VolRampTimerID) then
+      VolRampTimerID = C4:KillTimer(VolRampTimerID)
+    end
+  end
+  if (idEmitCommandsTimer) then
+    idEmitCommandsTimer = C4:KillTimer(idEmitCommandsTimer)
+    idEmitCommandsTimer = nil
+  end
+  if (ChannelRampTimerID) then
+    ChannelRampTimerID = C4:KillTimer(ChannelRampTimerID)
+  end
+  if (idConnectToNetworkTimer) then
+    idConnectToNetworkTimer = C4:KillTimer(idConnectToNetworkTimer)
+  end
+  if (idBusyTimer) then
+    idBusyTimer = C4:KillTimer(idBusyTimer)
+  end
+  for j, k in pairs(g_tInputChangeFailedTimer) do
+    if g_tInputChangeFailedTimer[j] then
+	  g_tInputChangeFailedTimer[j] = C4:KillTimer(g_tInputChangeFailedTimer[j])
+	end
+  end
+  if (idKeepAliveTimer) then
+    idKeepAliveTimer = C4:KillTimer(idKeepAliveTimer)
+  end
+  for j, k in pairs(g_tRoomIdDetectionTimer) do
+    if g_tRoomIdDetectionTimer[j] then
+	  g_tRoomIdDetectionTimer[j] = C4:KillTimer(g_tRoomIdDetectionTimer[j])
+	end
+  end
+  if (idReservedToChangeIpPortTimer) then
+    idReservedToChangeIpPortTimer = C4:KillTimer(idReservedToChangeIpPortTimer)
+  end
+  for k, v in pairs(g_tUpdateVolumeFeedbackTimer) do -- added on 6/22/2010
+    if (g_tUpdateVolumeFeedbackTimer[k]) then
+	  g_tUpdateVolumeFeedbackTimer[k] = C4:KillTimer(g_tUpdateVolumeFeedbackTimer[k])
+	end
+  end
+end
+
+function OnConnectionStatusChanged(idBinding, nPort, strStatus)
+  if (idBinding == NetworkIdBinding) then
+    if (strStatus == 'ONLINE') then
+      dbg('Network Connection Up.')
+      mNetConnected = true
+      C4:UpdateProperty('Connected To Network','true')
+      C4:KillTimer(idConnectToNetworkTimer)
+	  CMDS.REQUEST_CURRENT_MEDIA_INFO({['BindingID'] = ProductProxyID}, 'REQUEST_CURRENT_MEDIA_INFO')
+	  CMDS.GET_TREE_VERSION()
+    else
+      dbg('Network Connection Down.')
+      mNetConnected = false
+      C4:UpdateProperty('Connected To Network','false')
+    end
+  end
+end
+
+function ReceivedFromNetwork(idBinding, nPort, strData)
+  dbg('Received something from network on port:' .. nPort)
+  if (idBusyTimer~=nil) and (idBusyTimer~=0) then
+    idBusyTimer = C4:KillTimer(idBusyTimer)
+  end
+
+--[[
+  if (g_debugprint) then
+    hexdump(strData)
+  end
+--]]
+
+  gSerialBuf = gSerialBuf .. strData
+
+  local buflen, pos, st, start, len, data
+
+  buflen = string.len(gSerialBuf)
+  pos = 1
+
+  while (pos < buflen) do
+    -- Always have to start with g_StartDelim ...
+	st = string.find(gSerialBuf, g_StartDelim)
+    _, start = string.unpack(gSerialBuf, 'b', st)
+    start = string.pack('b', start)
+    -- If not g_StartDelim, dump buffer, exit...
+    if (start ~= g_StartDelim) then
+      dbg("RfS: No Start Delimiter (@) found.  Dumping buffer...")
+      gSerialBuf = ""
+      return
+    end
+
+    -- If g_StartDelim received, process it.
+	len = string.find(gSerialBuf,g_EndDelim,pos)
+	if (len==nil) then break end
+
+    -- Verify we have at least *len* to pull from gSerialBuf from pos to end...
+    if (len <= buflen) then
+--      data = string.sub(gSerialBuf, st+1, len - 1)
+      data = string.sub(gSerialBuf, pos + 1, len - 1)
+      pos = len+1
+      processResponse(data)
+    end
+  end
+  gSerialBuf = string.sub(gSerialBuf, pos)
+end
+
+function CommandInterpreter(strCommand, tParams) --deprecated
+end
+
+function GetCommandData(strCommand, tParams) --deprecated
+end
+
+function Get_Device_State(strCommand, tParams) -- Not used
+  PushCommand(strCommand, tParams)
+end
+
+function PushCommand(Command, Parameters) --deprecated
+end
+
+function emit(strCommand, strCommandName, type, tVol)
+  -- tVol added on 6/22/2010
+  dbg('Emit : ' .. strCommandName)
+  local bUsePowerOnDelay = false
+  if (strCommandName ==  'CONNECT_OUTPUT') then
+    bUsePowerOnDelay = true
+  end
+
+  if (type == nil) then
+    type = 'PUT'
+  end
+
+  if (type == 'PUT') then
+    strCommand = g_StartDelim .. strCommand .. g_EndDelim
+  elseif (type == 'GET') then
+    strCommand = g_StartDelim .. strCommand .. g_Query .. g_EndDelim
+  end
+
+--  table.insert(tEmitCommands, {strCommand, bUsePowerOnDelay})
+  table.insert(tEmitCommands, {strCommand, bUsePowerOnDelay, tVol}) -- Switched and modified on 6/21/2010
+
+  if idEmitCommandsTimer == nil then
+     idEmitCommandsTimer = C4:AddTimer(intraCommandDelayValue, 'MILLISECONDS', true)
+  end
+end
+
+function decode(msg) -- Completed
+
+  local SubUnit, FuncName, Value
+
+--  dbg('decoding message = ' .. msg)
+
+  if string.match(msg, "UNDEFINED") ~= nil then
+	SubUnit = "UNDEFINED"
+    dbg('Decoded SubUnit = ' .. SubUnit)
+	return SubUnit
+  elseif string.match(msg, "RESTRICTED") ~= nil then
+    SubUnit = "RESTRICTED"
+    dbg('Decoded SubUnit = ' .. SubUnit)
+    return SubUnit
+  else
+    local st = string.find(msg, g_StartDelim)
+    local col = string.find(msg, g_ComDelim)
+    local eq = string.find(msg, g_ParamDelim)
+    local len = string.len(msg)
+
+	if st ~= nil then
+	  if st < col then
+	    st = st + 1
+	  else
+	    st = 1
+	  end
+	else
+      st = 1
+	end
+
+	SubUnit = string.sub(msg,st,col-1)
+	FuncName = string.sub(msg,col+1,eq-1)
+	if (eq == len) then
+	  Value = ''
+    else
+      Value = string.sub(msg,eq+1,len)
+	end
+	--	dbg('Decoded SubUnit = ' .. SubUnit .. "\n" .. 'FuncName = ' .. FuncName .. "\n" .. 'Value = ' .. Value)
+    return SubUnit, FuncName, Value
+  end
+end
+
+function processResponse(response) -- Completed
+  if (response==nil) then return end
+
+--  dbg('processResponse:')
+---[[
+  if (g_debugprint) then
+--    hexdump(response)
+    dbg(response)
+  end
+--]]
+
+  local SubUnit = ''
+  local FuncName = ''
+  local Val = ''
+  local outid = ''
+
+  SubUnit, FuncName, Val = decode(response)
+  outid = tSubUnitIdMapByName[SubUnit]
+
+  if (SubUnit == 'UNDEFINED') then
+    dbg('Undefined command or value is sent to serial')
+	return
+  end
+  if (SubUnit == 'RESTRICTED') then
+    dbg('The device is now busy, restricted to process commands')
+	return
+  end
+  if (outid==nil) then
+    dbg('Subunit number was nil')
+    return
+  end
+
+  if outid >= 100 and outid <= 499 then -- Modified on 7/29/2010
+	if FuncName == 'STRAIGHT' then
+      RESP.SURROUND_MODE(outid, 'Straight')
+    elseif FuncName == 'SOUNDPRG' then
+      RESP.SURROUND_MODE(outid, Val)
+	elseif FuncName == 'PWR' then
+      RESP.POWER_STATUS(outid,Val)
+    elseif FuncName == 'INP' then
+      RESP.IO_STATUS(outid,Val)
+    elseif FuncName == 'VOL' then
+      RESP.VOLUME_STATUS(outid,Val)
+    elseif FuncName == 'MUTE' then
+      RESP.MUTE_STATUS(outid,Val)
+	end
+	return
+  end
+
+  if SubUnit == 'SYS' then
+    RESP.SYS_STATUS(SubUnit, FuncName, Val)
+  elseif SubUnit == 'SIRIUS' then
+    RESP.SIRIUS_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'TUN' then
+    RESP.TUNER_STATUS(SubUnit, FuncName, Val)
+  elseif SubUnit == 'HDRADIO' then
+    RESP.HDRADIO_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'IPOD' then
+    RESP.IPOD_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'USB' then
+    RESP.USB_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'NETRADIO' then
+    RESP.NETRADIO_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'RHAP' then
+    RESP.RHAP_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'PC' then
+    RESP.PC_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  elseif SubUnit == 'SIRIUSIR' then
+    RESP.SIRIUSIR_PLAY_INFORMATION(SubUnit, FuncName, Val)
+  end
+
+end
+
+function processVolumeLevel(volLevel, minVolLevel, maxVolLevel, minDeviceLevel, maxDeviceLevel) -- Completed
+  local level = (volLevel-minVolLevel)/(maxVolLevel-minVolLevel)
+  local vl=(level*(maxDeviceLevel-minDeviceLevel))+minDeviceLevel
+  vl= tonumber(("%.".."0".."f"):format(vl)) -- Rounding decimal fraction vl value as integer
+  dbg('processVolumeLevel: level in=' .. volLevel .. ', level out=' .. vl)
+  return vl
+end
+
+function round_vol(val) -- Completed
+  for i =-805,165, 5 do
+    if (math.abs((i - val)) < 5) then return i end
+  end
+end
+
+function changeVolume(OutputID, strCommand, strCommandData)
+  local lngOutputID = tonumber(OutputID) % 1000 -- modified on 6/17/2010
+  if (strCommand == 'STOP_VOL_UP') or (strCommand == 'STOP_VOL_DOWN') then
+    intraCommandDelayValue=g_holdIntraCommandDelayValue
+    if tVolRampTimerID[lngOutputID] ~= nil then
+      C4:KillTimer(tVolRampTimerID[lngOutputID])
+      tVolRampTimerID[lngOutputID] = nil
+	end
+    tVolumeCommands[lngOutputID] = nil
+    g_tIsVolRampStarted[lngOutputID] = nil -- added on 6/21/2010
+  else
+    if (strCommand == 'START_VOL_UP') or (strCommand == 'START_VOL_DOWN') then
+	  g_tIsVolRampStarted[lngOutputID] = true -- Added on 6/17/2010
+      g_holdIntraCommandDelayValue=intraCommandDelayValue
+      intraCommandDelayValue=intraVolRampDelayValue
+      if (g_tUpdateVolumeFeedbackTimer[lngOutputID]) then -- Added on 6/22/2010
+        C4:KillTimer(g_tUpdateVolumeFeedbackTimer[lngOutputID])
+      end
+      if  idEmitCommandsTimer ~= nil then
+        C4:KillTimer(idEmitCommandsTimer)
+        idEmitCommandsTimer = nil
+      end
+      local i, point, vol
+      if (tCurrentVolume[lngOutputID]==nil) then tCurrentVolume[lngOutputID]=0 end
+	  local pxyvol = tCurrentVolume[lngOutputID] -- added pxyvol on 6/22/2010
+      tVolumeCommands[lngOutputID]={}
+      table.sort(tVolumeCurve)
+      if (strCommand == 'START_VOL_UP') then
+        if (pxyvol ~= 100) then pxyvol = pxyvol + 1 end -- added on 6/22/2010
+        vol = round_vol(processVolumeLevel(pxyvol, 0, 100, -805, 165)) -- added on 6/22/2010
+        for i=1,table.maxn(tVolumeCurve) do
+          point=tVolumeCurve[i]
+          if (point > vol) then
+            table.insert(tVolumeCommands[lngOutputID],tVolumeCurve[i])
+          end
+        end
+      else
+        if (pxyvol ~= 0) then pxyvol = pxyvol - 1 end -- added on 6/22/2010
+        vol = round_vol(processVolumeLevel(pxyvol, 0, 100, -805, 165)) -- added on 6/22/2010
+        for i=table.maxn(tVolumeCurve),1,-1 do
+          point=tVolumeCurve[i]
+          if (point < vol) then
+            table.insert(tVolumeCommands[lngOutputID],tVolumeCurve[i])
+          end
+        end
+      end
+      if (tVolRampTimerID[lngOutputID] == nil) then
+        tVolRampTimerID[lngOutputID] = C4:AddTimer(intraVolRampDelayValue, 'MILLISECONDS', true)
+      end
+      local tParams={['LEVEL'] = vol, ['OUTPUT'] = lngOutputID+4000,} -- Modified on 6/22/2010
+      CMDS.RAMP_VOLUME_LEVEL(tParams,'RAMP_VOLUME_LEVEL',true) -- Modified on 6/22/2010
+	  if (tVolumeCommands[lngOutputID][1] == nil) then
+        dbg('tVolumeCommands[' .. lngOutputID .. '][1] was nil. No volume ramping.')
+      end
+    else
+	  emit(strCommandData, strCommand, 'PUT')
+    end
+  end
+end
+
+function dbg(strDebugText) -- No need to change
+  if (g_debugprint) then print(strDebugText) end
+  if (g_debuglog) then C4:ErrorLog(strDebugText) end
+end
+
+function startDebugTimer() -- No need to change
+  if (g_DebugTimer) then
+    g_DebugTimer = C4:KillTimer(g_DebugTimer)
+  end
+  g_DebugTimer = C4:AddTimer(15, 'MINUTES')
+end
+
+function fromHex(hexString) -- converts a string representing a hex number to decimal
+   local stringLen = string.len(hexString)
+   local decValue = 0
+   for k=0,stringLen-1 do
+      lastdigit = string.sub(hexString, stringLen-k)
+      decValue = decValue + (hexmap[lastdigit] * 16^k)
+      hexString=string.sub(hexString,1,stringLen-1)
+   end
+   return decValue
+end
+
+function concat_string(s1, s2) -- No need to change
+  if s1 == nil then
+    return s2
+  else
+    return s1 .. s2
+  end
+end
+
+function changeChannel(lngOutputID, strCommand, strCommandData) -- Not used
+   --  Code comments below should be removed when Defect 18784 is fixed (Tuner Proxy continues to send START commands).
+   if (strCommand == 'STOP_CH_UP') or (strCommand == 'STOP_CH_DOWN') then
+   --   C4:KillTimer(ChannelRampTimerID)
+     --Get_Device_State('QUERY_TUNER',{})
+   else
+      if (strCommand == 'START_CH_UP') or (strCommand == 'START_CH_DOWN') then
+         emit(strCommandData)
+   --      if (ChannelRampTimerID) then
+   --        ChannelRampTimerID = C4:KillTimer(ChannelRampTimerID)
+   --      end
+   --      ChannelRampTimerID = C4:AddTimer(intraCommandDelayValue, 'MILLISECONDS', true)
+   --      ChannelCommands = strCommandData
+      else
+         emit(strCommandData)
+         --Get_Device_State('QUERY_TUNER',{})
+      end
+   end
+end
+
+function findOutputFromBinding(bindingID) -- Completed
+    local output
+    if (bindingID < 5010) then -- Modified on 7/29/2010 for id changes
+      output = nil
+	else
+      output = findOutputIDFromInputName(tInputConnMapByID[bindingID % 1000].Name)
+    end
+	return output
+end
+
+function findOutputIDFromInputName(inputName) -- COmpleted
+    local output
+    for j,k in pairs(tSetInputTrack) do
+        --if (string.match(inputName,tInputConnMapByID[k.INPUT % 1000].Name) ~= nil) then
+        if (inputName==tInputConnMapByID[k.INPUT % 1000].Name) then
+            if (j==0) then
+              return j
+            else
+              output = j
+            end
+        end
+    end
+    return output
+end
+
+function CMDS.CONNECT_OUTPUT(tParams, strCommand, lngOUTPUT) -- Completed
+  if tParams.OUTPUT ~= nil then
+    dbg(strCommand .. '-' .. tParams.OUTPUT)
+  end
+
+  local strCmd
+  if lngOUTPUT == nil then lngOUTPUT = 0 end
+
+  if strCommand == 'RETRY_CONNECT_OUTPUT_from_SET_INPUT' then
+	dbg('... Retrying to connect output on ' .. g_tInputChangeFailed[lngOUTPUT].OUTPUT)
+    if (g_tPowerState[lngOUTPUT] == nil) or (g_tPowerState[lngOUTPUT] == 'OFF') then
+	  g_tNowPollingPowerState[lngOUTPUT] = true
+      strCmd = tOutputCommandMap[lngOUTPUT] .. ':PWR=On' -- Put Yamaha Command here
+      emit(strCmd, 'CONNECT_OUTPUT', 'PUT')
+	  strCmd = tOutputCommandMap[lngOUTPUT] .. ':PWR=?'
+	  emit(strCmd, 'Poll_Power_Status_On_' .. tOutputCommandMap[lngOUTPUT], 'PUT')
+	else
+	  dbg('Retrying CONNECT_OUTPUT was not necessary (' .. tOutputCommandMap[lngOUTPUT] .. ' was already ON state')
+	end
+  elseif tParams.OUTPUT ~= nil then
+    lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+    if lngOUTPUT == 0 then
+      dbg('Output # is specified as 0')
+      return
+    end
+    if (lngOUTPUT > 0) and (lngOUTPUT <= 499) then
+      strCmd = tOutputCommandMap[lngOUTPUT] .. ':PWR=On' -- Put Yamaha Command here
+        --command sent twice to wake unit from sleep mode
+	  g_tIsConnectOutputSentEarlier[lngOUTPUT] = true
+      emit(strCmd, 'WAKEUP', 'PUT')
+      emit(strCmd, 'CONNECT_OUTPUT', 'PUT')
+	else
+	  dbg('CONNECT_OUTPUT on Output ' .. lngOUTPUT .. ' is not available. Did nothing.' )
+	end
+  else
+    dbg('tParams.OUTPUT was nil. Did nothing')
+  end
+end
+
+function CMDS.DISCONNECT_OUTPUT(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':PWR=Standby' -- Put Yamaha Command here
+  emit(strCmd, strCommand, 'PUT')
+  gSerialBuf=''
+  g_tPowerState[tParams.OUTPUT % 1000] = 'OFF'
+  tSetInputTrack[tParams.OUTPUT % 1000] = nil
+  tSetTunerInputTrack[tParams.OUTPUT % 1000] = nil
+  C4:SendToProxy(ProductProxyID, 'INPUT_OUTPUT_CHANGED', {INPUT = -1, OUTPUT = 4000 + (tParams.OUTPUT % 1000)})
+  C4:SendToProxy(ProductProxyID, 'INPUT_OUTPUT_CHANGED', {INPUT = -1, OUTPUT = 2000 + (tParams.OUTPUT % 1000)})
+  C4:SendToProxy(ProductProxyID, 'INPUT_OUTPUT_CHANGED', {INPUT = -1, OUTPUT = 7000 + (tParams.OUTPUT % 1000)})
+end
+
+function CMDS.GET_PROPERTIES(tParams,strCommand)
+  local BindingID=tParams['BindingID']
+  if (BindingID==ProductProxyID) then
+	CMDS.REQUEST_CURRENT_MEDIA_INFO({['BindingID'] = BindingID}, 'REQUEST_CURRENT_MEDIA_INFO')
+  end
+end
+
+function CMDS.MUTE_OFF(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':MUTE=Off' -- Put Yamaha Command here
+  emit(strCmd, strCommand, 'PUT')
+end
+
+function CMDS.MUTE_ON(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':MUTE=On' -- Put Yamaha Command here
+  emit(strCmd, strCommand, 'PUT')
+end
+
+function CMDS.MUTE_TOGGLE(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':MUTE=On/Off' -- Put Yamaha Command here
+  emit(strCmd, strCommand, 'PUT')
+end
+
+function CMDS.PULSE_VOL_DOWN(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':VOL=Down' -- Put Yamaha Command here
+  if (g_tUpdateVolumeFeedbackTimer[lngOUTPUT]) then
+    C4:KillTimer(g_tUpdateVolumeFeedbackTimer[lngOUTPUT])
+  end
+  changeVolume(tParams['OUTPUT'],strCommand,strCmd)
+end
+
+function CMDS.PULSE_VOL_UP(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tonumber(tParams.OUTPUT) % 1000
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':VOL=Up' -- Put Yamaha Command here
+  if (g_tUpdateVolumeFeedbackTimer[lngOUTPUT]) then
+    C4:KillTimer(g_tUpdateVolumeFeedbackTimer[lngOUTPUT])
+  end
+  changeVolume(tParams['OUTPUT'],strCommand,strCmd)
+end
+
+function CMDS.START_VOL_DOWN(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  changeVolume(tParams['OUTPUT'],strCommand)
+end
+
+function CMDS.START_VOL_UP(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  changeVolume(tParams['OUTPUT'],strCommand)
+end
+
+function CMDS.STOP_VOL_UP(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  changeVolume(tParams['OUTPUT'],strCommand)
+end
+
+function CMDS.STOP_VOL_DOWN(tParams,strCommand) -- Completed
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  changeVolume(tParams['OUTPUT'],strCommand)
+end
+
+function CMDS.SET_VOLUME_LEVEL(tParams,strCommand) -- Modified on 6/22/2010
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tParams.OUTPUT % 1000
+  local ProxyVolume = tonumber(tParams['LEVEL'])
+  if (ProxyVolume == nil) then return end
+  if (g_tIsVolRampStarted[lngOUTPUT] == true) then return end
+  local ProductVolume = round_vol(processVolumeLevel(ProxyVolume, 0, 100, -805, 165))
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':VOL=' .. string.format('%.1f', ProductVolume / 10)  -- YNCA volume needs to be a decimal number
+  strCmd = g_StartDelim .. strCmd .. g_EndDelim
+
+  if (g_tUpdateVolumeFeedbackTimer[lngOUTPUT]) then
+    C4:KillTimer(g_tUpdateVolumeFeedbackTimer[lngOUTPUT])
+  end
+
+  dbg('Proxy Volume Level: ' .. ProxyVolume)
+  dbg('Product Volume Level: ' .. ProductVolume)
+  tCurrentVolume[lngOUTPUT] = ProxyVolume
+  g_tProductVolumeLevel[lngOUTPUT] = ProductVolume
+  dbg("Connected... Sending Packet: " .. strCmd)
+  C4:SendToNetwork(NetworkIdBinding, tonumber(mPort), strCmd)
+  C4:KillTimer(idKeepAliveTimer)
+  idKeepAliveTimer = C4:AddTimer(KeepAliveTimerValue, 'SECONDS', true)
+  C4:SendToProxy(ProductProxyID,'VOLUME_LEVEL_CHANGED', {LEVEL = ProxyVolume, OUTPUT = lngOUTPUT+4000})
+  dbg('Sent ' .. tOutputConnMap[lngOUTPUT] .. ' VOLUME_LEVEL_CHANGED to proxy at SET_VOLUME_LEVEL: ' .. ProxyVolume ..'%')
+end
+
+function CMDS.RAMP_VOLUME_LEVEL(tParams,strCommand,init) -- Modified on 6/22/2010
+  dbg(strCommand .. '-' .. tParams.OUTPUT)
+  local lngOUTPUT = tParams.OUTPUT % 1000
+  if (g_tIsVolRampStarted[lngOUTPUT] == nil) then return end
+  local ProductVolume = tonumber(tParams['LEVEL'])
+  if (ProductVolume == nil) then return end
+  local ProxyVolume = processVolumeLevel(ProductVolume, -805, 165, 0, 100)
+  dbg('Proxy Volume Level: ' .. ProxyVolume)
+  dbg('Product Volume Level: ' .. ProductVolume)
+  local strCmd = tOutputCommandMap[lngOUTPUT] .. ':VOL=' .. string.format('%.1f', ProductVolume / 10)  -- YNCA volume needs to be a decimal number
+
+  local tVol = {}
+  tVol.Out = tonumber(lngOUTPUT)
+  tVol.Proxy = ProxyVolume
+  tVol.Product = ProductVolume
+  if (init == true) then tVol.Init = init
+  else tVol.Init = nil end
+  emit(strCmd, strCommand, 'PUT', tVol)
+end
+
+function CMDS.SET_INPUT(tParams,strCommand,lngOUTPUT) -- Completed
+  local strCmd, BandComm, lngInp
+  local BindingID = 0
+  local lngINPUT, input, output
+
+  if lngOUTPUT == nil then lngOUTPUT = 0 end
+
+  if strCommand == 'SET_INPUT_from_OnTimerExpired' then
+    dbg('SET_INPUT_from_OnTimerExpired is called')
+    BindingID = g_tInputChangeFailed[lngOUTPUT].BindingID
+    output = g_tInputChangeFailed[lngOUTPUT].OUTPUT
+    input = g_tInputChangeFailed[lngOUTPUT].INPUT
+	lngINPUT = tonumber(g_tInputChangeFailed[lngOUTPUT].INPUT) % 1000
+  elseif tParams ~= nil then
+      dbg('SET_INPUT-tParams: ')
+    for j,k in pairs(tParams) do
+      dbg('SET_INPUT_ParamID: ' .. j .. ' - SET_INPUT_ParamValue: ' .. k)
+      if (j == 'BindingID') then BindingID = k end
+      if (j == 'OUTPUT') then
+		output = k
+	    lngOUTPUT = tonumber(k) % 1000
+	  end
+      if (j == 'INPUT') then
+	    input = k
+        lngINPUT = tonumber(k) % 1000
+      end
+    end
+  end
+
+  if (lngOUTPUT >= 100) and (lngOUTPUT <= 499) then -- If zone output is specified -- Modified on 7/29/2010 for id changes
+    -- Set the tRoomIdDetection[lngOUTPUT] = true to chatch RoomID if sepecified during the term of intraRoomIdDetectionValue
+    if (g_tRoomIdDetection[lngOUTPUT]==nil) or (g_tRoomIdDetection[lngOUTPUT]==false) then
+	  g_tRoomIdDetection[lngOUTPUT] = true
+	  g_tRoomIdDetectionTimer[lngOUTPUT] = C4:AddTimer(intraRoomIdDetectionValue, "MILLISECONDS", false)
+	end
+
+    if ((g_tPowerState[lngOUTPUT]==nil) or (g_tPowerState[lngOUTPUT]=='OFF')) and ((g_tIsConnectOutputSentEarlier[lngOUTPUT]==nil) or (g_tIsConnectOutputSentEarlier[lngOUTPUT]==false)) then
+      if (tParams.BindingID) and (tParams.OUTPUT) and (tParams.INPUT) then
+        g_tInputChangeFailed[lngOUTPUT] = { BindingID = tParams.BindingID, OUTPUT = tParams.OUTPUT, INPUT = tParams.INPUT, }
+	  end
+	  if (g_tInputChangeFailedTimer[lngOUTPUT] == 0) or (g_tInputChangeFailedTimer[lngOUTPUT] == nil) then
+	    if g_SetInputCount <= g_SetInputCountLimit then
+		  g_SetInputCount = g_SetInputCount + 1
+          g_tInputChangeFailedTimer[lngOUTPUT] = C4:AddTimer(intraRetrySetInputDelayValue, "MILLISECONDS", false)
+          if (g_tNowPollingPowerState[lngOUTPUT] == nil) or (g_tNowPollingPowerState[lngOUTPUT] == false) then
+            CMDS.CONNECT_OUTPUT({}, 'RETRY_CONNECT_OUTPUT_from_SET_INPUT', lngOUTPUT)
+		  end
+          return
+		else
+		  dbg('Input Change was tried in ' .. g_SetInputCountLimit .. ' times, but Output ' .. lngOUTPUT .. ', did not turn on. Quitted SET_INPUT process.')
+		  g_SetInputCount = 0
+		end
+	  end
+	else
+	  g_tIsConnectOutputSentEarlier[lngOUTPUT] = false
+	  g_SetInputCount = 0
+	end
+  end
+
+  if lngINPUT ~= nil then
+    if (lngINPUT >= 1) and (lngINPUT <= 6) then -- When one of AM/FM antennas is specified as an input -- Modified on 7/29/2010 for id changes
+      BandComm = tInputCommandMap[tInputConnMapByID[lngINPUT].Name].Band
+	  dbg('Selected Band : ' .. BandComm)
+        strCmd = tSubUnitNameMapById[BindingID % 1000] .. ':BAND=' .. BandComm
+        emit(strCmd, 'BAND_CHANGED', 'PUT')
+	    return
+    end
+  end
+
+  if lngOUTPUT ~= 0 then
+    local inpname = tInputCommandMap[lngOUTPUT][tInputConnMapByID[lngINPUT].Name]
+    local OutSubUnit = tOutputCommandMap[lngOUTPUT]
+    local InputConName = tInputConnMapByID[lngINPUT].Name
+	local OutputConName = tOutputConnMap[lngOUTPUT]
+    if inpname ~= nil then
+      strCmd = OutSubUnit .. ':INP=' .. tInputCommandMap[lngOUTPUT][tInputConnMapByID[lngINPUT].Name]
+      if (tSetInputTrack[lngOUTPUT] == nil) then
+        emit(strCmd, strCommand, 'PUT')
+		if (lngOUTPUT >= 200) and (lngOUTPUT <= 499) then -- if it's other than Main Zone
+		  strCmd =  OutSubUnit .. ':INP=?'
+          emit(strCmd, 'Poll_' .. OutSubUnit .. '_Input_Status', 'PUT')
+		end
+		tSetInputTrack[lngOUTPUT] = {}
+		C4:SendToProxy(BindingID, 'INPUT_OUTPUT_CHANGED', {INPUT = input, OUTPUT = output})
+        tSetInputTrack[lngOUTPUT].INPUT = input
+	    dbg('Input changed to "' .. InputConName .. '" on the output : ' .. OutputConName)
+      else
+        if ((tSetInputTrack[lngOUTPUT].INPUT % 1000)==lngINPUT) then
+          --this is the second half of and audio/video selection; the input selection has already been sent so we just need to update the proxy
+          C4:SendToProxy(BindingID, 'INPUT_OUTPUT_CHANGED', {INPUT = input, OUTPUT = output})
+	      dbg('Input changed to "' .. InputConName .. '" on the output : ' .. OutputConName)
+        else
+          emit(strCmd, strCommand, 'PUT')
+          if (lngOUTPUT >= 200) and (lngOUTPUT <= 499) then -- if it's other than Main Zone
+		    strCmd =  OutSubUnit .. ':INP=?'
+            emit(strCmd, 'Poll_' .. OutSubUnit .. '_Input_Status', 'PUT')
+		  end
+          C4:SendToProxy(BindingID, 'INPUT_OUTPUT_CHANGED', {INPUT = input, OUTPUT = output})
+          tSetInputTrack[lngOUTPUT].INPUT = input
+          dbg('Input changed to "' .. InputConName .. '" on the output : ' .. OutputConName)
+        end
+      end
+	else
+	  inpname = tInputCommandMap[tInputConnMapByID[lngINPUT].Name].Cmd
+	  dbg('Input: ' .. inpname .. ' is not supported on ' .. OutSubUnit)
+	  if tSetInputTrack[lngOUTPUT].INPUT ~= nil then
+	    C4:SendToProxy(BindingID, 'INPUT_OUTPUT_CHANGED', {INPUT = tSetInputTrack[lngOUTPUT].INPUT, OUTPUT = output})
+        dbg('Input changed to "' .. tInputConnMapByID[tSetInputTrack[lngOUTPUT].INPUT % 1000].Name .. '" on the output : ' .. OutputConName)
+	  end
+    end
+  elseif output ~= nil then
+    dbg('SET_INPUT was called with OUTPUT ID ' .. output .. '. Did nothing.')
+  end
+end
+
+function CMDS.INPUT_TOGGLE(tParams,strCommand)
+  local SubUnit = tSubUnitNameMapById[tParams.BindingID % 1000]
+  local strCmd
+
+  if SubUnit ~= nil then
+    if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') then
+      if g_Band ~= nil then
+	    if g_Band == 'FM' then
+	      strCmd = SubUnit .. ':BAND=AM'
+          emit(strCmd, 'BAND_TOGGLE_TO_AM', 'PUT')
+	    else
+	      strCmd = SubUnit .. ':BAND=FM'
+          emit(strCmd, 'BAND_TOGGLE_TO_FM', 'PUT')
+	    end
+      else
+	    strCmd = SubUnit .. ':BAND'
+	    emit(strCmd, 'Poll_' .. SubUnit .. '_Band', 'GET')
+	  end
+    else
+	  dbg('Sub Unit:' .. SubUnit .. ' does not support ' .. strCommand)
+    end
+  else
+    dbg('Sub Unit is not defined with Binding ID ' .. BindingID)
+  end
+end
+
+function CMDS.SET_SURROUND_MODE(tParams,strCommand) -- Completed
+  dbg(strCommand .. ' : ' .. tSurroundCommands[tonumber(tParams.SURROUND_MODE)].Cmd)
+  local strCmd
+  if tSurroundCommands[tonumber(tParams.SURROUND_MODE)].Cat == '2ch. Decode' then
+    strCmd = 'MAIN:STRAIGHT=Off'
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = 'MAIN:SOUNDPRG=Surround Decoder'
+    emit(strCmd, strCommand, 'PUT')
+ end
+  strCmd = 'SYS:REMOTECODE=' .. tSurroundCommands[tonumber(tParams.SURROUND_MODE)].IR1
+  emit(strCmd, strCommand, 'PUT')
+  strCmd = 'SYS:REMOTECODE=' .. tSurroundCommands[tonumber(tParams.SURROUND_MODE)].IR2
+  emit(strCmd,strCommand, 'PUT')
+  if tSurroundCommands[tonumber(tParams.SURROUND_MODE)].Cat == '2ch. Decode' then
+    strCmd = 'MAIN:SOUNDPRG=Surround Decoder'
+    emit(strCmd, strCommand, 'PUT')
+  end
+end
+
+function CMDS.SET_CHANNEL(tParams,strCommand) -- Completed
+  local sMajor, sMinor, channel, sHD, lHD, strCmd, lngINPUT, SubUnit
+  local BindingID = 0
+  local lngOUTPUT
+
+  dbg('SET_CHANNEL')
+  dbg('SET_CHANNEL-tParams: ')
+
+  if tParams ~= nil then
+    for j,k in pairs(tParams) do
+      dbg('SET_CHANNEL_ParamID: ' .. j .. ' - SET_CHANNEL_ParamValue: ' .. k)
+      if (j == 'BindingID') then BindingID = k end
+      if (j == 'OUTPUT') then lngOUTPUT = tonumber(k) % 1000 end
+      if (j == 'INPUT') then lngINPUT = tonumber(k) % 1000  end
+    end
+  end
+
+  if (lngOUTPUT==nil) then
+--    lngOUTPUT = findOutputIDFromInputName('TUNER')
+    lngOUTPUT = BindingID % 1000
+    tParams.OUTPUT = 4000 + lngOUTPUT
+  end
+
+  channel= tParams['CHANNEL']
+  SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') then
+    if tParams['BANDTYPE'] == nil then
+      if (string.find(channel, '%.') ~= nil) then
+        tParams['BANDTYPE'] = 'FM'
+      else
+        if tonumber(tParams['CHANNEL']) > 1760 then
+          tParams['BANDTYPE'] = 'FM'
+          local ChannelLen = string.len(tParams['CHANNEL'] )
+          local ChannelFix = string.sub(tParams['CHANNEL'],1,ChannelLen-2) .. '.' .. string.sub(tParams['CHANNEL'],ChannelLen-1,ChannelLen-1)
+          tParams ['CHANNEL'] = ChannelFix
+          channel = ChannelFix
+        else
+          tParams['BANDTYPE'] = 'AM'
+        end
+      end
+    end
+
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+
+    if tParams.BANDTYPE == 'FM' then
+      lHD = string.find(channel, '-')
+      if (lHD == nil) then
+        _, _, sMajor = string.find(channel,'(.-)%D')
+        _, _, sMinor = string.find(channel,'%D(.*)')
+        if (sMajor == nil) or (sMinor == nil) then return end
+        channel = sMajor .. sMinor .. string.rep("0", 2 - string.len(sMinor))
+      else
+        local pos, len
+        pos, len, sMajor = string.find(channel,'(.-)%D')
+        sMinor = string.sub(channel,pos+len,lHD-1)
+        sHD = 'HD' .. tonumber(string.sub(channel,lHD+1))
+        if (sMajor == nil) or (sMinor == nil) then return end
+        channel = sMajor .. sMinor .. string.rep("0", 2 - string.len(sMinor))
+      end
+      strCmd = SubUnit .. ':BAND=FM' -- Need to select band first
+	  emit(strCmd, strCommand, 'PUT')
+	  g_Band = 'FM'
+      channel = string.format('%.2f', channel / 100) -- YNCA's FM value needs to be decimal
+      strCmd = SubUnit .. ':FMFREQ=' .. channel
+    elseif tParams.BANDTYPE == 'AM' then
+      --channel = string.rep("0", 6 - string.len(channel)) .. channel
+      strCmd = SubUnit .. ':BAND=AM' -- Need to select band first
+	  emit(strCmd, strCommand, 'PUT')
+	  g_Band = 'AM'
+      strCmd = SubUnit .. ':AMFREQ=' .. channel
+    end
+    --proxy fires SET_CHANNEL BEFORE the SET_INPUT, so we need to fire a SET_INPUT to ensure that the tuner is selected
+    if (lngINPUT ~= nil) then
+      CMDS.SET_INPUT(tParams,'SET_INPUT_from_SET_CHANNEL')
+      emit(strCmd, strCommand, 'PUT')
+	  dbg('Specified frequency to the device: ' .. channel)
+      g_tTunerPlayInfo.HdNum = ''
+      if (sHD ~= nil) and (SubUnit == 'HDRADIO') then
+        strCmd = SubUnit .. ':PRGSEL=' .. sHD
+        emit(strCmd, 'HD PROGRAM', 'PUT')
+        dbg('HD Channel: ' .. sHD)
+      end
+    else
+      --this case handles tune up/down buttons in Navigator
+      emit(strCmd, strCommand, 'PUT')
+	  dbg('Specified frequency to the device: ' .. channel)
+      g_tTunerPlayInfo.HdNum = ''
+    end
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=' .. channel
+    emit(strCmd, strCommand, 'PUT')
+    dbg('Specified Channel to the device: ' .. channel)
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.SET_PRESET(tParams,strCommand) -- Completed
+  dbg(strCommand .. '_' .. tParams.PRESET .. '\rBindingID ' .. tParams.BindingID)
+  local BindingID = tParams.BindingID
+  local preset = tonumber(tParams.PRESET) + 1
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') or (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=Preset' -- Need to change search mode before set Preset
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':PRESET=' .. preset
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PRESET_UP(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') or (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=Preset' -- Need to change search mode before set Preset
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':PRESET=Up'
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PRESET_DOWN(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') or (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=Preset' -- Need to change search mode before set Preset
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':PRESET=Down'
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PULSE_CH_UP(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') then
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    if g_Band == 'FM' then
+      strCmd = SubUnit .. ':FMFREQ=Up'
+      emit(strCmd, strCommand, 'PUT')
+    elseif g_Band == 'AM' then
+      strCmd = SubUnit .. ':AMFREQ=Up'
+      emit(strCmd, strCommand, 'PUT')
+    end
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=Up'
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PULSE_CH_DOWN(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') then
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    if g_Band == 'FM' then
+      strCmd = SubUnit .. ':FMFREQ=Down'
+      emit(strCmd, strCommand, 'PUT')
+    elseif g_Band == 'AM' then
+      strCmd = SubUnit .. ':AMFREQ=Down'
+      emit(strCmd, strCommand, 'PUT')
+    end
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=Down'
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.SCAN_FWD(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') then
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    if g_Band == 'FM' then
+      strCmd = SubUnit .. ':FMFREQ=Auto Up'
+      emit(strCmd, strCommand, 'PUT')
+    elseif g_Band == 'AM' then
+      strCmd = SubUnit .. ':AMFREQ=Auto Up'
+      emit(strCmd, strCommand, 'PUT')
+    end
+--[[
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=Up'
+    emit(strCmd, strCommand, 'PUT')
+--]]
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.SCAN_REV(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') then
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    if g_Band == 'FM' then
+      strCmd = SubUnit .. ':FMFREQ=Auto Down'
+      emit(strCmd, strCommand, 'PUT')
+    elseif g_Band == 'AM' then
+      strCmd = SubUnit .. ':AMFREQ=Auto Down'
+      emit(strCmd, strCommand, 'PUT')
+    end
+--[[
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=Down'
+    emit(strCmd, strCommand, 'PUT')
+--]]
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.SKIP_FWD(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') then
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    if g_Band == 'FM' then
+      strCmd = SubUnit .. ':FMFREQ=Auto Up'
+      emit(strCmd, strCommand, 'PUT')
+    elseif g_Band == 'AM' then
+      strCmd = SubUnit .. ':AMFREQ=Auto Up'
+      emit(strCmd, strCommand, 'PUT')
+    end
+  elseif (SubUnit == 'HDRADIO') then
+    strCmd = SubUnit .. ':PRGSEL=Up'
+    emit(strCmd, strCommand, 'PUT')
+--[[
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=Up'
+    emit(strCmd, strCommand, 'PUT')
+--]]
+  elseif (SubUnit == 'IPOD') or (SubUnit == 'BT') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    strCmd = SubUnit .. CMDS['PLAY_CONTROL'].SKIP_FWD
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.SKIP_REV(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') then
+    strCmd = SubUnit .. ':SEARCHMODE=Tuning' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    if g_Band == 'FM' then
+      strCmd = SubUnit .. ':FMFREQ=Auto Down'
+      emit(strCmd, strCommand, 'PUT')
+    elseif g_Band == 'AM' then
+      strCmd = SubUnit .. ':AMFREQ=Auto Down'
+      emit(strCmd, strCommand, 'PUT')
+    end
+  elseif (SubUnit == 'HDRADIO') then
+    strCmd = SubUnit .. ':PRGSEL=Down'
+    emit(strCmd, strCommand, 'PUT')
+--[[
+  elseif (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=All Ch' -- Need to change search mode before set channel
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':CHSEL=Down'
+    emit(strCmd, strCommand, 'PUT')
+--]]
+  elseif (SubUnit == 'IPOD') or (SubUnit == 'BT') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    strCmd = SubUnit .. CMDS['PLAY_CONTROL'].SKIP_REV
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PAGE_UP(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') or (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=Preset' -- Need to change search mode before set Preset
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':PRESET=Up'
+    emit(strCmd, strCommand, 'PUT')
+  elseif (SubUnit == 'IPOD') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    -- Display command may be needs to be placed here before sending list control commands with conditions of Receiver's display status (in List screen or not): mey not possible
+    strCmd = SubUnit .. CMDS['LIST_CONTROL'].PAGE_UP
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PAGE_DOWN(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'TUN') or (SubUnit == 'HDRADIO') or (SubUnit == 'SIRIUS') then
+    strCmd = SubUnit .. ':SEARCHMODE=Preset' -- Need to change search mode before set Preset
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = SubUnit .. ':PRESET=Down'
+    emit(strCmd, strCommand, 'PUT')
+  elseif (SubUnit == 'IPOD') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    -- Display command may be needs to be placed here before sending list control commands with conditions of Receiver's display status (in List screen or not): mey not possible
+    strCmd = SubUnit .. CMDS['LIST_CONTROL'].PAGE_DOWN
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PLAY(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'IPOD') or (SubUnit == 'BT') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    strCmd = SubUnit .. CMDS['PLAY_CONTROL'].PLAY
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.STOP(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'IPOD') or (SubUnit == 'BT') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    strCmd = SubUnit .. CMDS['PLAY_CONTROL'].STOP
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.PAUSE(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'IPOD') or (SubUnit == 'BT') or (SubUnit == 'USB') or (SubUnit == 'NETRADIO') or (SubUnit == 'PC') or (SubUnit == 'RHAP') or (SubUnit == 'SIRIUSIR') then
+    strCmd = SubUnit .. CMDS['PLAY_CONTROL'].PAUSE
+    emit(strCmd, strCommand, 'PUT')
+  else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.RECORD(tParams,strCommand) -- Completed
+  dbg(strCommand)
+  local BindingID = tParams.BindingID
+  local SubUnit = tSubUnitNameMapById[BindingID % 1000]
+  dbg('Sub Unit = ' .. SubUnit)
+  local strCmd
+
+  if (SubUnit == 'HDRADIO') or (SubUnit == 'TUN') or (SubUnit == 'SIRIUS') then -- changed on 5/21/2010
+    strCmd = 'SYS:REMOTECODE=7F016718'
+    emit(strCmd, strCommand, 'PUT')
+    emit(strCmd, strCommand, 'PUT')
+    strCmd = 'SYS:REMOTECODE=7F016719'
+    emit(strCmd, strCommand, 'PUT')
+    emit(strCmd, strCommand, 'PUT')
+	else
+    dbg('This Sub Unit does not support ' .. strCommand)
+  end
+end
+
+function CMDS.QUERY(tParams,strCommand) -- Completed
+  CMDS.REQUEST_CURRENT_MEDIA_INFO(tParams, 'REQUEST_CURRENT_MEDIA_INFO')
+end
+
+function CMDS.REQUEST_CURRENT_MEDIA_INFO(tParams,strCommand) -- Completed
+  dbg(strCommand)
+
+  local BindingID = tParams.BindingID
+  local SubUnit
+  local RoomID
+
+  if tParams.ROOM_ID ~= nil then
+    for j, k in pairs(g_tRoomIdDetection) do
+	  if k == true then
+	    tSetInputTrack[j].ROOMID = tParams.ROOM_ID
+		dbg('Room ID ' .. tParams.ROOM_ID .. ' is bound with Output #' .. j)
+		g_tRoomIdDetection[j] = false
+		break -- one room should be bound with a certain output at once
+	  end
+	end
+  end
+
+  dbg('Binding ID:')
+
+  if BindingID ~= nil then
+    dbg(BindingID)
+  else
+    dbg('Binding ID is nil')
+  end
+
+  if (BindingID == 5091 ) or (BindingID == 5092) then -- TUNER/HD Radio -- Modified on 7/29/2010 for id changes
+    SubUnit = tSubUnitNameMapById[BindingID % 1000]
+    strCmd = SubUnit .. ':BAND'
+    emit(strCmd, 'Poll_' .. SubUnit .. '_Band', 'GET')
+  end
+
+--  if (BindingID == 5901 ) or (BindingID == 5902) or (BindingID == 5905) or (BindingID == 5701) then
+  if (BindingID % 1000  >= 70) and (BindingID % 1000 <= 99) then -- Source related bindings  -- Modified on 7/29/2010 for id changes
+    for j, k in pairs(tSetInputTrack) do
+	  if (tonumber(k.INPUT) % 1000) == (BindingID % 1000) and (g_tPowerState[j] == 'ON') then
+	    g_IsSourcePollingNecessary = true
+	  end
+	end
+    if (g_IsSourcePollingNecessary == true) then
+      SubUnit = tSubUnitNameMapById[BindingID % 1000]
+      strCmd = SubUnit .. ':AVAIL'
+      emit(strCmd, 'Poll_' .. SubUnit .. '_Availability', 'GET')
+      strCmd = SubUnit .. ':METAINFO'
+      emit(strCmd, 'Poll_' .. SubUnit .. '_MetaInfo', 'GET')
+    end
+    g_IsSourcePollingNecessary = false
+  else
+    for j, k in pairs(tSubUnitNameMapById) do
+      if (j >= 100) and (j <= 499) then -- Modified on 7/30/2010
+        strCmd = k ..  ':BASIC'
+        emit(strCmd, 'Poll_' .. k .. '_BasicStatus', 'GET')
+	  end
+	end
+	CMDS.GET_TREE_VERSION()
+  end
+end
+
+function CMDS.GET_TREE_VERSION()
+  emit(GetVerCmd, 'GET_TREE_VERSION', 'PUT')
+end
+
+function CMDS.GET_VIDEO_PATH(tParams, strCommand)
+  return
+  -- do nothing
+end
+
+function CMDS.GET_AUDIO_PATH(tParams, strCommand)
+  return
+  -- do nothing
+end
+
+function CMDS.MENU_KEYS(tParams, strCommand)
+  local strCmd1, strCmd2
+  local lngBindingID = tParams.BindingID % 1000
+  local RoomID = tParams.ROOM_ID
+  if lngBindingID == 0 then
+    strCmd1 = MENU[lngBindingID][strCommand].IR1
+	strCmd2 = MENU[lngBindingID][strCommand].IR2
+	emit(strCmd1, 'Receiver_' .. strCommand, 'PUT')
+	emit(strCmd2, 'Receiver_' .. strCommand, 'PUT')
+  elseif RoomID ~= nil then
+    for j, k in pairs(tSetInputTrack) do
+      if ((tonumber(k.INPUT) % 1000) == lngBindingID) and (k.ROOMID == RoomID) then
+	    if (g_tPowerState[j] == 'ON') then
+          strCmd1 = MENU[j][strCommand].IR1
+	      strCmd2 = MENU[j][strCommand].IR2
+		  if (strCmd1 ~= nil) and (strCmd2 ~= nil) then
+		    emit(strCmd1, tOutputConnMap[j] .. '_' .. strCommand, 'PUT')
+		    emit(strCmd2, tOutputConnMap[j] .. '_' .. strCommand, 'PUT')
+		  else
+		    dbg('IR1 and/or IR2 in table MENU[' .. j .. '][' .. strCommand .. '] is nil')
+		    return
+		  end
+	    else
+	      dbg(tOutputConnMap[j] .. ' input is now ' .. tInputConnMapByID[tonumber(k.INPUT) % 1000].Name .. ', but ' .. tOutputConnMap[j] .. ' is not turned ON. ' .. strCommand .. ' is not sent.')
+	    end
+	  end
+    end
+  else
+    dbg('No Room ID was specified with ' .. strCommand .. ' key operation. Did nothing.')
+  end
+end
+
+function CMDS.UP(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.DOWN(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.LEFT(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.RIGHT(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.MENU(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.ENTER(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.RECALL(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.CANCEL(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.INFO(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.GUIDE(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_0(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_1(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_2(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_3(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_4(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_5(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_6(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_7(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_8(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.NUMBER_9(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function CMDS.POUND(tParams,strCommand) -- Completed
+  CMDS.MENU_KEYS(tParams, strCommand)
+end
+
+function RESP.IO_STATUS(output, input_name) -- Completed
+  if (input_name==nil) then dbg('RESP.IO_STATUS: input_name is nil') return end
+  local t={}
+  local input=tInputConnMapByName[tInputResponseMap[input_name]].ID
+  t.InputName=tInputResponseMap[input_name]
+  if (input==nil) then return end
+  if (output==nil) then return end
+  if tSetInputTrack[output] == nil then tSetInputTrack[output] = {} end
+  tSetInputTrack[output].INPUT = input + 3000
+  t.OutputName=tOutputConnMap[output]
+  t.InputID=input + 3000 --3000 Audio, 1000 Video
+  t.OutputID=4000 + output --4000 Audio, 2000 Video
+  C4:SendToProxy(ProductProxyID, 'INPUT_OUTPUT_CHANGED', {INPUT = t.InputID, OUTPUT = t.OutputID})
+  t.InputID=input + 1000 --3000 Audio, 1000 Video
+  t.OutputID=2000 + output --4000 Audio, 2000 Video
+  C4:SendToProxy(ProductProxyID, 'INPUT_OUTPUT_CHANGED', {INPUT = t.InputID, OUTPUT = t.OutputID})
+  dbg('Sent INPUT_CHANGED to: ' .. t.InputName  .. ' on ' .. t.OutputName)
+  if (input_name == 'TUNER') and (g_tPowerState[output] == 'ON') then
+    local strCmd = tSubUnitNameMapById[input] .. ':BAND'
+	emit(strCmd, 'Poll_' .. tSubUnitNameMapById[input] .. '_Band', 'GET')
+	dbg('Tuner Band info requested by ' .. strCmd)
+  end
+end
+
+function RESP.POWER_STATUS(output, state) -- COmpleted
+  if (state==nil) then dbg('RESP.POWER_STATUS: state is nil') return end
+  if (state=='On') then state='ON'
+  elseif (state=='Standby') then state='OFF'
+  else return end
+
+  C4:SendToProxy(ProductProxyID, state, {})
+  g_tPowerState[output] =  state
+  g_tNowPollingPowerState[output] = false
+  dbg('Sent powerState to proxy: output =' .. output .. ', state = ' .. state)
+end
+
+function RESP.VOLUME_STATUS(output, volume) -- Completed
+  if (volume==nil) then dbg('RESP.VOLUME_STATUS: volume is nil') return end
+-- Added and modified on 6/21/2010
+  g_tFeedbackProductVolumeLevel[output] = volume * 10 -- Added on 6/21/2010
+  g_tFeedbackProxyVolumeLevel[output] = processVolumeLevel(volume * 10, -805, 165, 0, 100)
+  if (g_tUpdateVolumeFeedbackTimer[output]) then C4:KillTimer(g_tUpdateVolumeFeedbackTimer[output]) end
+  g_tUpdateVolumeFeedbackTimer[output] = C4:AddTimer(intraUpdateVolumeFeedbackDelay, 'MILLISECONDS', false)
+end
+
+function RESP.MUTE_STATUS(output, state) -- COmpleted
+  if (state==nil) then dbg('RESP.MUTE_STATUS: state is nil') return end
+  local mute
+  if state == 'On' then
+    mute='True'
+  elseif state == 'Off' then
+    mute='False'
+  end
+  if (mute==nil) then return end
+  C4:SendToProxy(ProductProxyID,'MUTE_CHANGED', {MUTE = mute, OUTPUT = output+4000})
+  dbg('Sent ' .. tOutputConnMap[output] .. ' muteState to proxy: ' .. mute)
+end
+
+function RESP.SURROUND_MODE(output, mode) -- COmpleted
+  if (mode==nil) then dbg('RESP.SURROUND_MODE: mode is nil') return end
+  if (tSurroundResponses[mode]~=nil) then
+    C4:SendToProxy(ProductProxyID,'SURROUND_MODE_CHANGED', {SURROUND_MODE = tSurroundResponses[mode].ID, OUTPUT = output+4000})
+    dbg('RESP.SURROUND_MODE: ' .. mode)
+  end
+end
+
+function RESP.SYS_STATUS(SubUnit, FuncName, Val)
+  if FuncName == 'VERSION' then
+    g_TreeVersion = string.sub(Val, string.find(Val, '/') + 1, string.len(Val))
+    dbg('Function Tree version is ' .. g_TreeVersion)
+	return
+  end
+  if (FuncName == 'YNCAPORT') and (tonumber(Val) == NewPort) then
+    g_IsReservedToChangeIpPort = true
+	dbg('New IP Port #' .. Val ..' is now reserved to set on the receiver. Need to shut it off once.')
+	return
+  end
+end
+
+function RESP.TUNER_STATUS(SubUnit, FuncName, Val) -- Completed
+  dbg('RESP.TUNER_STATUS:')
+  local t = {}
+  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+  local strCmd
+  if (FuncName == 'BAND') then
+	  g_Band = Val
+	  dbg('Tuner Band is set as ' .. g_Band)
+	  strCmd = SubUnit .. ':' .. g_Band .. 'FREQ'
+      emit(strCmd, 'Poll_' .. SubUnit .. '_Freq', 'GET')
+  elseif (FuncName == 'AMFREQ') or (FuncName == 'FMFREQ') then
+    for d in string.gmatch(Val,'%d+') do
+      if (t.Channel==nil) then
+        t.Channel = d
+      else
+        t.Channel = t.Channel .. d
+      end
+    end
+    if (g_Band == nil) then
+	  strCmd = SubUnit .. ':BAND'
+	  emit(strCmd, 'Poll_' .. SubUnit .. '_Band', 'GET')
+    elseif (g_Band == 'FM') and (FuncName == 'FMFREQ') then
+      t.InputID = tInputConnMapByName['FM Antenna'].ID + 3000 --3000 Audio, 1000 Video
+      t.BandType='FMBand'
+      t.MinChannel=8750
+      t.MaxChannel=10790
+      t.ChannelSpacing=20
+      C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=t.InputID,BANDTYPE=t.BandType,MINCHANNEL=t.MinChannel,MAXCHANNEL=t.MaxChannel,CHANNELSPACING=t.ChannelSpacing})
+      C4:SendToProxy(BindingID,'CHANNEL_CHANGED',{CHANNEL=t.Channel})
+	  dbg('INPUT_CHANGED is sent to Director')
+	  dbg('Tuner Frequency is changed to ' .. t.Channel)
+      if SubUnit == 'HDRADIO' then
+	    if g_PSN_Text ~= nil then
+		  C4:SendToProxy(BindingID, 'PSN_CHANGED', {PSN=g_PSN_Text})
+          dbg('PSN Text is changed to "' .. g_PSN_Text .. '"')
+		end
+		if g_Radio_Text ~= nil then
+          C4:SendToProxy(BindingID, 'RADIO_TEXT_CHANGED', {RADIO_TEXT=g_Radio_Text})
+          dbg('Radio Text is changed to "' .. g_Radio_Text .. '"')
+		end
+      end
+    elseif (g_Band == 'AM') and (FuncName == 'AMFREQ') then
+      t.InputID = tInputConnMapByName['AM Antenna'].ID + 3000 --3000 Audio, 1000 Video
+      t.BandType='AMBand'
+      t.MinChannel=530
+      t.MaxChannel=1760
+      t.ChannelSpacing=10
+      C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=t.InputID,BANDTYPE=t.BandType,MINCHANNEL=t.MinChannel,MAXCHANNEL=t.MaxChannel,CHANNELSPACING=t.ChannelSpacing})
+      C4:SendToProxy(BindingID,'CHANNEL_CHANGED',{CHANNEL=t.Channel})
+	  dbg('INPUT_CHANGED is sent to Director')
+	  dbg('Tuner Frequency is changed to ' .. t.Channel)
+      if SubUnit == 'HDRADIO' then
+	    if g_PSN_Text ~= nil then
+	      C4:SendToProxy(BindingID, 'PSN_CHANGED', {PSN=g_PSN_Text})
+          dbg('PSN Text is changed to "' .. g_PSN_Text .. '"')
+		end
+		if g_Radio_Text ~= nil then
+          C4:SendToProxy(BindingID, 'RADIO_TEXT_CHANGED', {RADIO_TEXT=g_Radio_Text})
+          dbg('Radio Text is changed to "' .. g_Radio_Text .. '"')
+		end
+      end
+    end
+  else
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+end
+
+function RESP.HDRADIO_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Completed
+
+  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+  local psn_text, radio_text
+  local strCmd
+
+  dbg('RESP.HDRADIO_PLAY_INFORMATION:')
+
+  if (FuncName == 'BAND') or (FuncName == 'FMFREQ') or (FuncName == 'AMFREQ') then
+    RESP.TUNER_STATUS(SubUnit, FuncName, Val)
+  else
+    if g_tTunerPlayInfo.Channel == nil then g_tTunerPlayInfo.Channel = ' ' end
+    if g_tTunerPlayInfo.HdNum == nil then g_tTunerPlayInfo.HdNum = ' ' end
+    if g_tTunerPlayInfo.ChannelCat == nil then g_tTunerPlayInfo.ChannelCat = ' ' end  -- not used actually
+    if g_tTunerPlayInfo.Title == nil then g_tTunerPlayInfo.Title = ' ' end
+    if g_tTunerPlayInfo.Artist == nil then g_tTunerPlayInfo.Artist = ' ' end
+    if g_tTunerPlayInfo.Album == nil then	g_tTunerPlayInfo.Album = ' ' end -- not used actually
+
+    if FuncName == 'STATION' then
+      if Val == '' then Val = ' ' end
+	  g_tTunerPlayInfo.Channel = Val
+      if g_tTunerPlayInfo.Channel ~= ' ' then
+	    strCmd = SubUnit .. ':PRGNUM'
+        emit(strCmd, 'Poll_' .. SubUnit .. '_ProgramNumber', 'GET')
+      end
+    elseif FuncName == 'PRGNUM' then
+      if Val == '---' then Val = ' ' end
+	  g_tTunerPlayInfo.HdNum = Val
+    elseif FuncName == 'PRGTYPE' then
+      if Val == '' then Val = ' ' end
+      g_tTunerPlayInfo.ChannelCat = Val  -- not used actually
+    elseif FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+	  g_tTunerPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+	  g_tTunerPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+	  g_tTunerPlayInfo.Album = Val  -- not used actually
+    else
+      dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+    end
+
+    if g_tTunerPlayInfo.Channel == ' ' then
+	  psn_text = ' '
+    else
+	  psn_text = g_tTunerPlayInfo.Channel .. ' ' .. g_tTunerPlayInfo.HdNum
+	end
+
+	if (g_tTunerPlayInfo.Title ~= ' ') and (g_tTunerPlayInfo.Artist ~= ' ') then
+      radio_text = g_tTunerPlayInfo.Title .. ' / ' .. g_tTunerPlayInfo.Artist
+    elseif (g_tTunerPlayInfo.Title == ' ') and (g_tTunerPlayInfo.Artist == ' ') then
+      radio_text = ' '
+    elseif (g_tTunerPlayInfo.Title ~= ' ') then
+      radio_text = g_tTunerPlayInfo.Title
+    elseif (g_tTunerPlayInfo.Artist ~= ' ') then
+      radio_text = g_tTunerPlayInfo.Artist
+	else
+      radio_text = ' '
+    end
+
+    if (psn_text ~= g_PSN_Text) then
+      g_PSN_Text = psn_text
+	  C4:SendToProxy(BindingID, 'PSN_CHANGED', {PSN=psn_text})
+      dbg('PSN Text is changed to "' .. psn_text .. '"')
+    end
+    if (radio_text ~= g_Radio_Text) then
+      g_Radio_Text = radio_text
+      C4:SendToProxy(BindingID, 'RADIO_TEXT_CHANGED', {RADIO_TEXT=radio_text})
+      dbg('Radio Text is changed to "' .. radio_text .. '"')
+    end
+  end
+end
+
+function RESP.SIRIUS_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Completed
+  dbg('RESP.SIRIUS_PLAY_INFORMATION:')
+
+  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+  local InputID
+  local strCmd
+
+  if g_tSiriusPlayInfo.ChNum == nil then g_tSiriusPlayInfo.ChNum = 'CH ' end
+  if g_tSiriusPlayInfo.Channel == nil then g_tSiriusPlayInfo.Channel = ' ' end
+  if g_tSiriusPlayInfo.ChannelCat == nil then g_tSiriusPlayInfo.ChannelCat = ' ' end
+  if g_tSiriusPlayInfo.Title == nil then g_tSiriusPlayInfo.Title = ' ' end
+  if g_tSiriusPlayInfo.Artist == nil then g_tSiriusPlayInfo.Artist = ' ' end
+  if g_tSiriusPlayInfo.Composer == nil then	g_tSiriusPlayInfo.Composer = ' ' end -- not used actually
+
+  if (FuncName == 'AVAIL') then
+    InputID = tInputConnMapByName['SIRIUS Antenna'].ID + 3000 --3000 Audio, 1000 Video
+    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+	dbg('INPUT_CHANGED is sent to Director')
+    if (Val == 'Not Ready') or (Val == 'Not Connected') then
+      g_tSiriusPlayInfo.ChNum = 'CH '
+	  g_tSiriusPlayInfo.Channel = ' '
+	  g_tSiriusPlayInfo.ChannelCat = ' '
+	  g_tSiriusPlayInfo.Title = ' '
+	  g_tSiriusPlayInfo.Artist = ' '
+	  g_tSiriusPlayInfo.Composer = ' '
+    end
+  end
+
+  if (FuncName == 'CHNUM') or (FuncName == 'CHNAME') or (FuncName == 'CATNAME') or (FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'COMPOSER') then
+    if FuncName == 'CHNUM' then
+      g_tSiriusPlayInfo.ChNum = 'CH ' .. Val
+    elseif FuncName == 'CHNAME' then
+      if Val == '' then Val = ' ' end
+      g_tSiriusPlayInfo.Channel = Val
+    elseif FuncName == 'CATNAME' then
+      if Val == '' then Val = ' ' end
+      g_tSiriusPlayInfo.ChannelCat = Val
+    elseif FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tSiriusPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tSiriusPlayInfo.Artist = Val
+    elseif FuncName == 'COMPOSER' then
+      if Val == '' then Val = ' ' end
+      g_tSiriusPlayInfo.Composer = Val  -- not used actually
+	end
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+
+  if (g_tSiriusPlayInfo.ChNum ~= g_SiriusChNum) then
+    g_SiriusChNum = g_tSiriusPlayInfo.ChNum
+    C4:SendToProxy(BindingID,'SONG_INFO_CHANGED',{NAME=g_tSiriusPlayInfo.Channel,ARTIST=g_tSiriusPlayInfo.Artist,TITLE=g_tSiriusPlayInfo.Title,CATEGORY=g_tSiriusPlayInfo.ChannelCat,CHANNEL=g_tSiriusPlayInfo.ChNum})
+    dbg('Ch # is changed to "' .. g_tSiriusPlayInfo.ChNum .. '"')
+    strCmd = SubUnit .. ':METAINFO'
+    emit(strCmd, 'Poll_' .. SubUnit .. '_MetaInfo', 'GET')
+  end
+  if (g_tSiriusPlayInfo.Channel ~= g_SiriusChannel) then
+    g_SiriusChannel = g_tSiriusPlayInfo.Channel
+    C4:SendToProxy(BindingID,'SONG_INFO_CHANGED',{NAME=g_tSiriusPlayInfo.Channel,ARTIST=g_tSiriusPlayInfo.Artist,TITLE=g_tSiriusPlayInfo.Title,CATEGORY=g_tSiriusPlayInfo.ChannelCat,CHANNEL=g_tSiriusPlayInfo.ChNum})
+    dbg('Ch Name is changed to "' .. g_tSiriusPlayInfo.Channel .. '"')
+  end
+  if (g_tSiriusPlayInfo.ChannelCat ~= g_SiriusChannelCat) then
+    g_SiriusChannelCat = g_tSiriusPlayInfo.ChannelCat
+    C4:SendToProxy(BindingID,'SONG_INFO_CHANGED',{NAME=g_tSiriusPlayInfo.Channel,ARTIST=g_tSiriusPlayInfo.Artist,TITLE=g_tSiriusPlayInfo.Title,CATEGORY=g_tSiriusPlayInfo.ChannelCat,CHANNEL=g_tSiriusPlayInfo.ChNum})
+    dbg('Ch Category is changed to "' .. g_tSiriusPlayInfo.ChannelCat .. '"')
+  end
+  if (g_tSiriusPlayInfo.Title ~= g_SiriusTitle) then
+    g_SiriusTitle = g_tSiriusPlayInfo.Title
+    C4:SendToProxy(BindingID,'SONG_INFO_CHANGED',{NAME=g_tSiriusPlayInfo.Channel,ARTIST=g_tSiriusPlayInfo.Artist,TITLE=g_tSiriusPlayInfo.Title,CATEGORY=g_tSiriusPlayInfo.ChannelCat,CHANNEL=g_tSiriusPlayInfo.ChNum})
+    dbg('Song Title is changed to "' .. g_tSiriusPlayInfo.Title .. '"')
+  end
+  if (g_tSiriusPlayInfo.Artist ~= g_SiriusArtist) then
+    g_SiriusArtist = g_tSiriusPlayInfo.Artist
+    C4:SendToProxy(BindingID,'SONG_INFO_CHANGED',{NAME=g_tSiriusPlayInfo.Channel,ARTIST=g_tSiriusPlayInfo.Artist,TITLE=g_tSiriusPlayInfo.Title,CATEGORY=g_tSiriusPlayInfo.ChannelCat,CHANNEL=g_tSiriusPlayInfo.ChNum})
+    dbg('Artist Name is changed to "' .. g_tSiriusPlayInfo.Artist .. '"')
+  end
+end
+
+function RESP.IPOD_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Completed
+  dbg('RESP.IPOD_PLAY_INFORMATION')
+
+--  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+--  local InputID = tSubUnitIdMapByName[SubUnit] + 3000 --3000 Audio, 1000 Video
+
+  if g_tIpodPlayInfo.Title == nil then g_tIpodPlayInfo.Title = ' ' end
+  if g_tIpodPlayInfo.Artist == nil then g_tIpodPlayInfo.Artist = ' ' end
+  if g_tIpodPlayInfo.Album == nil then g_tIpodPlayInfo.Album = ' ' end
+
+  if (FuncName == 'AVAIL') then
+    if (Val == 'Ready') then
+--    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+--	dbg('INPUT_CHANGED is sent to Director')
+    elseif (Val == 'Not Ready') or (Val == 'Not Connected') then
+	  g_tIpodPlayInfo.Title = ' '
+	  g_tIpodPlayInfo.Artist = ' '
+	  g_tIpodPlayInfo.Album = ' '
+    end
+  end
+
+  if (FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'ALBUM') then
+    if FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tIpodPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tIpodPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+      g_tIpodPlayInfo.Album = Val
+	end
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+-- Once Director is able to handle with "SONG_INFO_CHANGED" for other sources than TUNER/XM/SIRIUS,
+-- comment outs below can be deleted
+  if (g_tIpodPlayInfo.Title ~= g_IpodTitle) then
+    g_IpodTitle = g_tIpodPlayInfo.Title
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tIpodPlayInfo.Artist,TITLE=g_tIpodPlayInfo.Title,CATEGORY=g_tIpodPlayInfo.Album,CHANNEL=''})
+    dbg('Song Title is changed to "' .. g_tIpodPlayInfo.Title .. '"')
+  end
+  if (g_tIpodPlayInfo.Artist ~= g_IpodArtist) then
+    g_IpodArtist = g_tIpodPlayInfo.Artist
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tIpodPlayInfo.Artist,TITLE=g_tIpodPlayInfo.Title,CATEGORY=g_tIpodPlayInfo.Album,CHANNEL=''})
+    dbg('Artist Name is changed to "' .. g_tIpodPlayInfo.Artist .. '"')
+  end
+  if (g_tIpodPlayInfo.Album ~= g_IpodAlbum) then
+    g_IpodAlbum = g_tIpodPlayInfo.Album
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tIpodPlayInfo.Artist,TITLE=g_tIpodPlayInfo.Title,CATEGORY=g_tIpodPlayInfo.Album,CHANNEL=''})
+    dbg('Album Name is changed to "' .. g_tIpodPlayInfo.Album .. '"')
+  end
+end
+
+function RESP.USB_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Not yet
+  dbg('RESP.USB_PLAY_INFORMATION')
+--  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+--  local InputID = tSubUnitIdMapByName[SubUnit] + 3000 --3000 Audio, 1000 Video
+
+  if g_tUSBPlayInfo.Title == nil then g_tUSBPlayInfo.Title = ' ' end
+  if g_tUSBPlayInfo.Artist == nil then g_tUSBPlayInfo.Artist = ' ' end
+  if g_tUSBPlayInfo.Album == nil then g_tUSBPlayInfo.Album = ' ' end
+
+  if (FuncName == 'AVAIL') then
+    if (Val == 'Ready') then
+--    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+--	dbg('INPUT_CHANGED is sent to Director')
+    elseif (Val == 'Not Ready') or (Val == 'Not Connected') then
+	  g_tUSBPlayInfo.Title = ' '
+	  g_tUSBPlayInfo.Artist = ' '
+	  g_tUSBPlayInfo.Album = ' '
+    end
+  end
+
+  if (FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'ALBUM') then
+    if FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tUSBPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tUSBPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+      g_tUSBPlayInfo.Album = Val
+	end
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+-- Once Director is able to handle with "SONG_INFO_CHANGED" for other sources than TUNER/XM/SIRIUS,
+-- comment outs below can be deleted
+  if (g_tUSBPlayInfo.Title ~= g_USBTitle) then
+    g_USBTitle = g_tUSBPlayInfo.Title
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tUSBPlayInfo.Artist,TITLE=g_tUSBPlayInfo.Title,CATEGORY=g_tUSBPlayInfo.Album,CHANNEL=''})
+    dbg('Song Title is changed to "' .. g_tUSBPlayInfo.Title .. '"')
+  end
+  if (g_tUSBPlayInfo.Artist ~= g_USBArtist) then
+    g_USBArtist = g_tUSBPlayInfo.Artist
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tUSBPlayInfo.Artist,TITLE=g_tUSBPlayInfo.Title,CATEGORY=g_tUSBPlayInfo.Album,CHANNEL=''})
+    dbg('Artist Name is changed to "' .. g_tUSBPlayInfo.Artist .. '"')
+  end
+  if (g_tUSBPlayInfo.Album ~= g_USBAlbum) then
+    g_USBAlbum = g_tUSBPlayInfo.Album
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tUSBPlayInfo.Artist,TITLE=g_tUSBPlayInfo.Title,CATEGORY=g_tUSBPlayInfo.Album,CHANNEL=''})
+    dbg('Album Name is changed to "' .. g_tUSBPlayInfo.Album .. '"')
+  end
+end
+
+function RESP.NETRADIO_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Not yet
+  dbg('RESP.NETRADIO_PLAY_INFORMATION')
+--  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+--  local InputID = tSubUnitIdMapByName[SubUnit] + 3000 --3000 Audio, 1000 Video
+
+  if g_tNETRadioPlayInfo.Title == nil then g_tNETRadioPlayInfo.Title = ' ' end
+  if g_tNETRadioPlayInfo.Artist == nil then g_tNETRadioPlayInfo.Artist = ' ' end
+  if g_tNETRadioPlayInfo.Album == nil then g_tNETRadioPlayInfo.Album = ' ' end
+
+  if (FuncName == 'AVAIL') then
+    if (Val == 'Ready') then
+--    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+--	dbg('INPUT_CHANGED is sent to Director')
+    elseif (Val == 'Not Ready') or (Val == 'Not Connected') then
+	  g_tNETRadioPlayInfo.Title = ' '
+	  g_tNETRadioPlayInfo.Artist = ' '
+	  g_tNETRadioPlayInfo.Album = ' '
+    end
+  end
+
+  if (FuncName == 'STATION') then --(FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'ALBUM') then
+    if Val == '' then Val = ' ' end
+      g_tNETRadioPlayInfo.Title = Val
+--[[
+    if FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tNETRadioPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tNETRadioPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+      g_tNETRadioPlayInfo.Album = Val
+--]]
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+-- Once Director is able to handle with "SONG_INFO_CHANGED" for other sources than TUNER/XM/SIRIUS,
+-- comment outs below can be deleted
+  if (g_tNETRadioPlayInfo.Title ~= g_NETRadioTitle) then
+    g_NETRadioTitle = g_tNETRadioPlayInfo.Title
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tNETRadioPlayInfo.Artist,TITLE=g_tNETRadioPlayInfo.Title,CATEGORY=g_tNETRadioPlayInfo.Album,CHANNEL=''})
+    dbg('Station Title is changed to "' .. g_tNETRadioPlayInfo.Title .. '"')
+  end
+  if (g_tNETRadioPlayInfo.Artist ~= g_NETRadioArtist) then
+    g_NETRadioArtist = g_tNETRadioPlayInfo.Artist
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tNETRadioPlayInfo.Artist,TITLE=g_tNETRadioPlayInfo.Title,CATEGORY=g_tNETRadioPlayInfo.Album,CHANNEL=''})
+    dbg('Artist Name is changed to "' .. g_tNETRadioPlayInfo.Artist .. '"')
+  end
+  if (g_tNETRadioPlayInfo.Album ~= g_NETRadioAlbum) then
+    g_NETRadioAlbum = g_tNETRadioPlayInfo.Album
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tNETRadioPlayInfo.Artist,TITLE=g_tNETRadioPlayInfo.Title,CATEGORY=g_tNETRadioPlayInfo.Album,CHANNEL=''})
+    dbg('Album Name is changed to "' .. g_tNETRadioPlayInfo.Album .. '"')
+  end
+end
+
+function RESP.RHAP_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Not yet
+  dbg('RESP.RHAP_PLAY_INFORMATION')
+--  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+--  local InputID = tSubUnitIdMapByName[SubUnit] + 3000 --3000 Audio, 1000 Video
+
+  if g_tRhapsodyPlayInfo.Title == nil then g_tRhapsodyPlayInfo.Title = ' ' end
+  if g_tRhapsodyPlayInfo.Artist == nil then g_tRhapsodyPlayInfo.Artist = ' ' end
+  if g_tRhapsodyPlayInfo.Album == nil then g_tRhapsodyPlayInfo.Album = ' ' end
+
+  if (FuncName == 'AVAIL') then
+    if (Val == 'Ready') then
+--    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+--	dbg('INPUT_CHANGED is sent to Director')
+    elseif (Val == 'Not Ready') or (Val == 'Not Connected') then
+	  g_tRhapsodyPlayInfo.Title = ' '
+	  g_tRhapsodyPlayInfo.Artist = ' '
+	  g_tRhapsodyPlayInfo.Album = ' '
+    end
+  end
+
+  if (FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'ALBUM') then
+    if FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tRhapsodyPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tRhapsodyPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+      g_tRhapsodyPlayInfo.Album = Val
+	end
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+-- Once Director is able to handle with "SONG_INFO_CHANGED" for other sources than TUNER/XM/SIRIUS,
+-- comment outs below can be deleted
+  if (g_tRhapsodyPlayInfo.Title ~= g_RhapsodyTitle) then
+    g_RhapsodyTitle = g_tRhapsodyPlayInfo.Title
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tRhapsodyPlayInfo.Artist,TITLE=g_tRhapsodyPlayInfo.Title,CATEGORY=g_tRhapsodyPlayInfo.Album,CHANNEL=''})
+    dbg('Song Title is changed to "' .. g_tRhapsodyPlayInfo.Title .. '"')
+  end
+  if (g_tRhapsodyPlayInfo.Artist ~= g_RhapsodyArtist) then
+    g_RhapsodyArtist = g_tRhapsodyPlayInfo.Artist
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tRhapsodyPlayInfo.Artist,TITLE=g_tRhapsodyPlayInfo.Title,CATEGORY=g_tRhapsodyPlayInfo.Album,CHANNEL=''})
+    dbg('Artist Name is changed to "' .. g_tRhapsodyPlayInfo.Artist .. '"')
+  end
+  if (g_tRhapsodyPlayInfo.Album ~= g_RhapsodyAlbum) then
+    g_RhapsodyAlbum = g_tRhapsodyPlayInfo.Album
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tRhapsodyPlayInfo.Artist,TITLE=g_tRhapsodyPlayInfo.Title,CATEGORY=g_tRhapsodyPlayInfo.Album,CHANNEL=''})
+    dbg('Album Name is changed to "' .. g_tRhapsodyPlayInfo.Album .. '"')
+  end
+end
+
+function RESP.PC_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Not yet
+  dbg('RESP.PC_PLAY_INFORMATION')
+--  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+--  local InputID = tSubUnitIdMapByName[SubUnit] + 3000 --3000 Audio, 1000 Video
+
+  if g_tPcPlayInfo.Title == nil then g_tPcPlayInfo.Title = ' ' end
+  if g_tPcPlayInfo.Artist == nil then g_tPcPlayInfo.Artist = ' ' end
+  if g_tPcPlayInfo.Album == nil then g_tPcPlayInfo.Album = ' ' end
+
+  if (FuncName == 'AVAIL') then
+    if (Val == 'Ready') then
+--    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+--	dbg('INPUT_CHANGED is sent to Director')
+    elseif (Val == 'Not Ready') or (Val == 'Not Connected') then
+	  g_tPcPlayInfo.Title = ' '
+	  g_tPcPlayInfo.Artist = ' '
+	  g_tPcPlayInfo.Album = ' '
+    end
+  end
+
+  if (FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'ALBUM') then
+    if FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tPcPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tPcPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+      g_tPcPlayInfo.Album = Val
+	end
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+-- Once Director is able to handle with "SONG_INFO_CHANGED" for other sources than TUNER/XM/SIRIUS,
+-- comment outs below can be deleted
+  if (g_tPcPlayInfo.Title ~= g_PcTitle) then
+    g_PcTitle = g_tPcPlayInfo.Title
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tPcPlayInfo.Artist,TITLE=g_tPcPlayInfo.Title,CATEGORY=g_tPcPlayInfo.Album,CHANNEL=''})
+    dbg('Song Title is changed to "' .. g_tPcPlayInfo.Title .. '"')
+  end
+  if (g_tPcPlayInfo.Artist ~= g_PcArtist) then
+    g_PcArtist = g_tPcPlayInfo.Artist
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tPcPlayInfo.Artist,TITLE=g_tPcPlayInfo.Title,CATEGORY=g_tPcPlayInfo.Album,CHANNEL=''})
+    dbg('Artist Name is changed to "' .. g_tPcPlayInfo.Artist .. '"')
+  end
+  if (g_tPcPlayInfo.Album ~= g_PcAlbum) then
+    g_PcAlbum = g_tPcPlayInfo.Album
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tPcPlayInfo.Artist,TITLE=g_tPcPlayInfo.Title,CATEGORY=g_tPcPlayInfo.Album,CHANNEL=''})
+    dbg('Album Name is changed to "' .. g_tPcPlayInfo.Album .. '"')
+  end
+end
+
+function RESP.SIRIUSIR_PLAY_INFORMATION(SubUnit, FuncName, Val) -- Not yet
+  dbg('RESP.SIRIUSIR_PLAY_INFORMATION')
+--  local BindingID = tSubUnitIdMapByName[SubUnit] + ProductProxyID
+--  local InputID = tSubUnitIdMapByName[SubUnit] + 3000 --3000 Audio, 1000 Video
+
+  if g_tSIRIUSInternetRadioPlayInfo.Title == nil then g_tSIRIUSInternetRadioPlayInfo.Title = ' ' end
+  if g_tSIRIUSInternetRadioPlayInfo.Artist == nil then g_tSIRIUSInternetRadioPlayInfo.Artist = ' ' end
+  if g_tSIRIUSInternetRadioPlayInfo.Album == nil then g_tSIRIUSInternetRadioPlayInfo.Album = ' ' end
+
+  if (FuncName == 'AVAIL') then
+    if (Val == 'Ready') then
+--    C4:SendToProxy(BindingID,'INPUT_CHANGED', {INPUT=InputID})
+--	dbg('INPUT_CHANGED is sent to Director')
+    elseif (Val == 'Not Ready') or (Val == 'Not Connected') then
+	  g_tSIRIUSInternetRadioPlayInfo.Title = ' '
+	  g_tSIRIUSInternetRadioPlayInfo.Artist = ' '
+	  g_tSIRIUSInternetRadioPlayInfo.Album = ' '
+    end
+  end
+
+  if (FuncName == 'SONG') or (FuncName == 'ARTIST') or (FuncName == 'ALBUM') then
+    if FuncName == 'SONG' then
+      if Val == '' then Val = ' ' end
+      g_tSIRIUSInternetRadioPlayInfo.Title = Val
+    elseif FuncName == 'ARTIST' then
+      if Val == '' then Val = ' ' end
+      g_tSIRIUSInternetRadioPlayInfo.Artist = Val
+    elseif FuncName == 'ALBUM' then
+      if Val == '' then Val = ' ' end
+      g_tSIRIUSInternetRadioPlayInfo.Album = Val
+	end
+  elseif (FuncName ~= 'AVAIL') then
+    dbg('(not handled) ' .. SubUnit .. ':' .. FuncName .. '=' .. Val)
+  end
+-- Once Director is able to handle with "SONG_INFO_CHANGED" for other sources than TUNER/XM/SIRIUS,
+-- comment outs below can be deleted
+  if (g_tSIRIUSInternetRadioPlayInfo.Title ~= g_SIRIUSInternetRadioTitle) then
+    g_SIRIUSInternetRadioTitle = g_tSIRIUSInternetRadioPlayInfo.Title
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tSIRIUSInternetRadioPlayInfo.Artist,TITLE=g_tSIRIUSInternetRadioPlayInfo.Title,CATEGORY=g_tSIRIUSInternetRadioPlayInfo.Album,CHANNEL=''})
+    dbg('Song Title is changed to "' .. g_tSIRIUSInternetRadioPlayInfo.Title .. '"')
+  end
+  if (g_tSIRIUSInternetRadioPlayInfo.Artist ~= g_SIRIUSInternetRadioArtist) then
+    g_SIRIUSInternetRadioArtist = g_tSIRIUSInternetRadioPlayInfo.Artist
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tSIRIUSInternetRadioPlayInfo.Artist,TITLE=g_tSIRIUSInternetRadioPlayInfo.Title,CATEGORY=g_tSIRIUSInternetRadioPlayInfo.Album,CHANNEL=''})
+    dbg('Artist Name is changed to "' .. g_tSIRIUSInternetRadioPlayInfo.Artist .. '"')
+  end
+  if (g_tSIRIUSInternetRadioPlayInfo.Album ~= g_SIRIUSInternetRadioAlbum) then
+    g_SIRIUSInternetRadioAlbum = g_tSIRIUSInternetRadioPlayInfo.Album
+--    C4:SendToProxy(BindingID, 'SONG_INFO_CHANGED', {NAME='',ARTIST=g_tSIRIUSInternetRadioPlayInfo.Artist,TITLE=g_tSIRIUSInternetRadioPlayInfo.Title,CATEGORY=g_tSIRIUSInternetRadioPlayInfo.Album,CHANNEL=''})
+    dbg('Album Name is changed to "' .. g_tSIRIUSInternetRadioPlayInfo.Album .. '"')
+  end
+end
+
+function trim(s) -- May or may not need. Depends on how to be used in RESP functions.
+  return (string.gsub(s, "^%s*(.-)%s*$", "%1"))
+end
+
+function OnPropertyChanged(strProperty) -- No need to change unless properties are changed
+  if (strProperty == 'Debug Mode') then
+    if (Properties[strProperty] == 'Off') then
+      g_debugprint = false
+      g_debuglog = false
+      g_DebugTimer = C4:KillTimer(g_DebugTimer)
+      g_DebugTimer = 0
+    end
+    if (Properties[strProperty] == 'Print') then
+      g_debugprint = true
+      g_debuglog = false
+      startDebugTimer()
+    end
+    if (Properties[strProperty] == 'Log') then
+      g_debugprint = false
+      g_debuglog = true
+      startDebugTimer()
+    end
+    if (Properties[strProperty] == 'Print and Log') then
+      g_debugprint = true
+      g_debuglog = true
+      startDebugTimer()
+    end
+  elseif (strProperty == 'Power On Delay-Seconds') then
+    powerOnDelayValue = tonumber(Properties['Power On Delay-Seconds'])
+  elseif (strProperty == 'Command Delay-Milliseconds') then
+    intraCommandDelayValue = tonumber(Properties['Command Delay-Milliseconds'])
+  elseif (strProperty == 'Volume Ramp Delay-Milliseconds') then
+    intraVolRampDelayValue = tonumber(Properties['Volume Ramp Delay-Milliseconds'])
+  elseif (strProperty == 'Retry Set Input Delay-Milliseconds') then
+    intraRetrySetInputDelayValue = tonumber(Properties['Retry Set Input Delay-Milliseconds'])
+  elseif (strProperty == 'RoomID Detection Limit-Milliseconds') then
+    intraRoomIdDetectionValue = tonumber(Properties['RoomID Detection Limit-Milliseconds'])
+  elseif (strProperty == 'IP Address') then
+    mAddress = tostring(Properties['IP Address'])
+  elseif (strProperty == 'IP Port') then
+	NewPort = tonumber(Properties['IP Port'])
+	emit('SYS:YNCAPORT=' .. Properties['IP Port'], 'CHANGE_IP_PORT', 'PUT')
+	idReservedToChangeIpPortTimer = C4:AddTimer(intraIpPortSetDelayValue, 'SECONDS', false)
+	dbg('New IP Port #' .. NewPort .. ' is now reserved to set on Director, will be set in ' .. intraIpPortSetDelayValue .. ' seconds. Need to shut off (pull AC canle from) the receiver in order to enable IP Port change to ' .. NewPort)
+  elseif (strProperty == 'Keep Alive Timer Delay-Seconds') then
+    KeepAliveTimerValue = tonumber(Properties['Keep Alive Timer Delay-Seconds'])
+  elseif (strProperty == 'IP Port Set Delay-Seconds') then
+    intraIpPortSetDelayValue = tonumber(Properties['IP Port Set Delay-Seconds'])
+  elseif (strProperty == 'Update Volume Feedback Delay-Milliseconds') then -- added on 6/22/2010
+    intraUpdateVolumeFeedbackDelay = tonumber(Properties['Update Volume Feedback Delay-Milliseconds'])
+  end
+end
+      ]]></script>
+  </config>
+  <driverdocumentation>
+    <category name="certified" description="Certification">Control4 certified on 2/24/2011 for software released versions: 1.8.2, 2.0.6.</category>
+  </driverdocumentation>
+</devicedata>
